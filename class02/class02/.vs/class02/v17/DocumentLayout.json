@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\aspnetwebapi\\class02\\class02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|d:\\aspnetwebapi\\class02\\class02\\class02\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|solutionrelative:class02\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|d:\\aspnetwebapi\\class02\\class02\\class02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|solutionrelative:class02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|d:\\aspnetwebapi\\class02\\class02\\class02\\staticdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|solutionrelative:class02\\staticdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|d:\\aspnetwebapi\\class02\\class02\\class02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|solutionrelative:class02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|d:\\aspnetwebapi\\class02\\class02\\class02\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B86F3A6-6E5F-4914-A585-9EC55AEC312E}|class02\\class02.csproj|solutionrelative:class02\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "D:\\aspnetwebapi\\class02\\class02\\class02\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "class02\\Controllers\\NotesController.cs",
+              "ToolTip": "D:\\aspnetwebapi\\class02\\class02\\class02\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "class02\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:24:05.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\aspnetwebapi\\class02\\class02\\class02\\Program.cs",
+              "RelativeDocumentMoniker": "class02\\Program.cs",
+              "ToolTip": "D:\\aspnetwebapi\\class02\\class02\\class02\\Program.cs",
+              "RelativeToolTip": "class02\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:21:57.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaticDb.cs",
+              "DocumentMoniker": "D:\\aspnetwebapi\\class02\\class02\\class02\\StaticDb.cs",
+              "RelativeDocumentMoniker": "class02\\StaticDb.cs",
+              "ToolTip": "D:\\aspnetwebapi\\class02\\class02\\class02\\StaticDb.cs",
+              "RelativeToolTip": "class02\\StaticDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:17:34.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\aspnetwebapi\\class02\\class02\\class02\\appsettings.json",
+              "RelativeDocumentMoniker": "class02\\appsettings.json",
+              "ToolTip": "D:\\aspnetwebapi\\class02\\class02\\class02\\appsettings.json",
+              "RelativeToolTip": "class02\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T17:07:05.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\aspnetwebapi\\class02\\class02\\class02\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "class02\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\aspnetwebapi\\class02\\class02\\class02\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "class02\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:58:48.19Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
