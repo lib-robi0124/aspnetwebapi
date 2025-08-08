@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|d:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|solutionrelative:homework1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|d:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\staticdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|solutionrelative:homework1\\staticdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|d:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|solutionrelative:homework1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|d:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|solutionrelative:homework1\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|d:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A11F46D5-78BB-4F8E-A26F-461A22835595}|homework1\\homework1.csproj|solutionrelative:homework1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "homework1\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "homework1\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAywB8AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T09:17:20.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StaticDb.cs",
-              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\StaticDb.cs",
-              "RelativeDocumentMoniker": "homework1\\StaticDb.cs",
-              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\StaticDb.cs",
-              "RelativeToolTip": "homework1\\StaticDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T09:14:55.222Z",
+              "Title": "Script.js",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\wwwroot\\Script.js",
+              "RelativeDocumentMoniker": "homework1\\wwwroot\\Script.js",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\wwwroot\\Script.js",
+              "RelativeToolTip": "homework1\\wwwroot\\Script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-08T10:27:46.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.html",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\wwwroot\\Index.html",
+              "RelativeDocumentMoniker": "homework1\\wwwroot\\Index.html",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\wwwroot\\Index.html",
+              "RelativeToolTip": "homework1\\wwwroot\\Index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-08T10:27:15.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\Program.cs",
               "RelativeDocumentMoniker": "homework1\\Program.cs",
               "ToolTip": "D:\\qinshift\\aspnetwebapi\\class02\\homework1\\homework1\\Program.cs",
               "RelativeToolTip": "homework1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T09:14:32.312Z",
               "EditorCaption": ""

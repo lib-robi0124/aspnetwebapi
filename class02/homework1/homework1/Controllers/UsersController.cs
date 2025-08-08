@@ -10,7 +10,8 @@ namespace homework1.Controllers
         [HttpGet] 
         public ActionResult<List<string>> Get()
         {
-            return BadRequest(StaticDb.UserNames);
+            //return BadRequest(StaticDb.UserNames);
+            return Ok(StaticDb.UserNames); // Changed from BadRequest to Ok
         }
         [HttpGet("{index}")] 
         public ActionResult<string> GetByIndex(int index)

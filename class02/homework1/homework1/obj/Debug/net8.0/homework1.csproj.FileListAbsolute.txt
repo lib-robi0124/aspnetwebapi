@@ -1,5 +1,6 @@
 D:\qinshift\aspnetwebapi\class02\homework1\homework1\bin\Debug\net8.0\appsettings.Development.json
 D:\qinshift\aspnetwebapi\class02\homework1\homework1\bin\Debug\net8.0\appsettings.json
+D:\qinshift\aspnetwebapi\class02\homework1\homework1\bin\Debug\net8.0\homework1.staticwebassets.runtime.json
 D:\qinshift\aspnetwebapi\class02\homework1\homework1\bin\Debug\net8.0\homework1.staticwebassets.endpoints.json
 D:\qinshift\aspnetwebapi\class02\homework1\homework1\bin\Debug\net8.0\homework1.exe
 D:\qinshift\aspnetwebapi\class02\homework1\homework1\bin\Debug\net8.0\homework1.deps.json
