@@ -13,7 +13,7 @@ namespace class02.Controllers
             //return StatusCode(StatusCodes.Status200OK, StaticDb.SimpleNotes);
             return Ok(StaticDb.SimpleNotes);
         }
-        [HttpGet("{index}")]
+        [HttpGet("{index}")] //http://localhost:[port]/api/notes/1 
         public ActionResult<string> GetByIndex(int index)
         {
             try
@@ -23,7 +23,7 @@ namespace class02.Controllers
                     return StatusCode(StatusCodes.Status400BadRequest, "The index has negative value");
                 }
 
-                if (index <= StaticDb.SimpleNotes.Count)
+                if (index >= StaticDb.SimpleNotes.Count)
                 {
                     return StatusCode(StatusCodes.Status404NotFound, $"There is no resourse on index {index}");
                 }
@@ -35,7 +35,7 @@ namespace class02.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "an error occurred.Contact admin");
             }
         }
-        [HttpPost]
+        [HttpPost] //http://localhost:[port]/api/notes
         public ActionResult Post([FromBody] string newNote)
         {
             try
@@ -44,10 +44,10 @@ namespace class02.Controllers
                 {
                     //string newNote = reader.ReadToEnd();
 
-                    if (string.IsNullOrEmpty(newNote))
-                    {
-                        return BadRequest("the body can not be empty!");
-                    }
+                    //if (string.IsNullOrEmpty(newNote))
+                    //{
+                    //    return BadRequest("the body can not be empty!");
+                    //}
                     StaticDb.SimpleNotes.Add(newNote);
                     return StatusCode(StatusCodes.Status201Created, "the new note added");
                 }
