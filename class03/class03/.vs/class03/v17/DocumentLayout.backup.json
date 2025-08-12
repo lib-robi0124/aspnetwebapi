@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\aspnetwebapi\\class03\\class03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE9167B-B6F1-4EEC-BE0C-5225C219E3D8}|NotesAndPathsApp\\NotesAndTagssApp.csproj|d:\\aspnetwebapi\\class03\\class03\\notesandpathsapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE9167B-B6F1-4EEC-BE0C-5225C219E3D8}|NotesAndPathsApp\\NotesAndTagssApp.csproj|solutionrelative:notesandpathsapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE9167B-B6F1-4EEC-BE0C-5225C219E3D8}|NotesAndPathsApp\\NotesAndTagssApp.csproj|d:\\aspnetwebapi\\class03\\class03\\notesandpathsapp\\staticdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE9167B-B6F1-4EEC-BE0C-5225C219E3D8}|NotesAndPathsApp\\NotesAndTagssApp.csproj|solutionrelative:notesandpathsapp\\staticdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE9167B-B6F1-4EEC-BE0C-5225C219E3D8}|NotesAndPathsApp\\NotesAndTagssApp.csproj|d:\\aspnetwebapi\\class03\\class03\\notesandpathsapp\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE9167B-B6F1-4EEC-BE0C-5225C219E3D8}|NotesAndPathsApp\\NotesAndTagssApp.csproj|solutionrelative:notesandpathsapp\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "NotesAndPathsApp\\Controllers\\NotesController.cs",
+              "ToolTip": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "NotesAndPathsApp\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:51:56.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaticDb.cs",
+              "DocumentMoniker": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\StaticDb.cs",
+              "RelativeDocumentMoniker": "NotesAndPathsApp\\StaticDb.cs",
+              "ToolTip": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\StaticDb.cs",
+              "RelativeToolTip": "NotesAndPathsApp\\StaticDb.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:24:07.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Note.cs",
+              "DocumentMoniker": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "NotesAndPathsApp\\Models\\Note.cs",
+              "ToolTip": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\Models\\Note.cs",
+              "RelativeToolTip": "NotesAndPathsApp\\Models\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:18:42.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
