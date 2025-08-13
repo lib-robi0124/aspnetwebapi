@@ -20,6 +20,189 @@
     ]
   },
   {
+    "ContainingType": "NotesAndTagssApp.Controllers.NotesController",
+    "Method": "PostNote",
+    "RelativePath": "api/Notes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "note",
+        "Type": "NotesAndTagssApp.Models.Note",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotesAndTagssApp.Controllers.NotesController",
+    "Method": "Get",
+    "RelativePath": "api/Notes/{index}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NotesAndTagssApp.Models.Note",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NotesAndTagssApp.Controllers.NotesController",
+    "Method": "GetByTextAndPriority",
+    "RelativePath": "api/Notes/{text}/priority/{priority}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "priority",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[NotesAndTagssApp.Models.Note, NotesAndTagssApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NotesAndTagssApp.Controllers.NotesController",
+    "Method": "GetHeader",
+    "RelativePath": "api/Notes/header",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TestHeader",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotesAndTagssApp.Controllers.NotesController",
+    "Method": "FilterNotesByMultipleParams",
+    "RelativePath": "api/Notes/multipleParams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "priority",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[NotesAndTagssApp.Models.Note, NotesAndTagssApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NotesAndTagssApp.Controllers.NotesController",
+    "Method": "GetQueryString",
+    "RelativePath": "api/Notes/queryString",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NotesAndTagssApp.Models.Note",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NotesAndTagssApp.Controllers.NotesController",
+    "Method": "UpdateNote",
+    "RelativePath": "api/Notes/updateNote/{index}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "note",
+        "Type": "NotesAndTagssApp.Models.Note",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotesAndTagssApp.Controllers.NotesController",
+    "Method": "GetUserAgentHeader",
+    "RelativePath": "api/Notes/userAgent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "User-Agent",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NotesAndPathsApp.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

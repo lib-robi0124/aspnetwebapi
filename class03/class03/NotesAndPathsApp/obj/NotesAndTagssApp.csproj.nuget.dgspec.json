@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\NotesAndTagssApp.csproj": {}
+    "D:\\qinshift\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\NotesAndTagssApp.csproj": {}
   },
   "projects": {
-    "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\NotesAndTagssApp.csproj": {
+    "D:\\qinshift\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\NotesAndTagssApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\NotesAndTagssApp.csproj",
+        "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\NotesAndTagssApp.csproj",
         "projectName": "NotesAndTagssApp",
-        "projectPath": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\NotesAndTagssApp.csproj",
-        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "D:\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\obj\\",
+        "projectPath": "D:\\qinshift\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\NotesAndTagssApp.csproj",
+        "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+        "outputPath": "D:\\qinshift\\aspnetwebapi\\class03\\class03\\NotesAndPathsApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
