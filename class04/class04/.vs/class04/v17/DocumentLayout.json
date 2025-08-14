@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "NotesAndTagsApp\\Controllers\\NotesController.cs",
               "ToolTip": "D:\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\Controllers\\NotesController.cs",
               "RelativeToolTip": "NotesAndTagsApp\\Controllers\\NotesController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAAF8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAD4v44AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T16:52:34.739Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "NotesAndTagsApp\\DTOs\\UpdateNoteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T16:28:05.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T16:28:05.648Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "NotesAndTagsApp\\DTOs\\AddNoteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T16:22:26.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T16:22:26.796Z"
             },
             {
               "$type": "Document",
@@ -109,21 +107,19 @@
               "RelativeToolTip": "NotesAndTagsApp\\DTOs\\NoteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T16:16:05.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T16:16:05.225Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "NotesAndTagsApp",
+              "Title": "NotesAndTagsApp.csproj",
               "DocumentMoniker": "D:\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\NotesAndTagsApp.csproj",
               "RelativeDocumentMoniker": "NotesAndTagsApp\\NotesAndTagsApp.csproj",
               "ToolTip": "D:\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\NotesAndTagsApp.csproj",
               "RelativeToolTip": "NotesAndTagsApp\\NotesAndTagsApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-14T15:53:33.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:53:33.436Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "NotesAndTagsApp\\StaticDb.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAADQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:53:43.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:53:43.677Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "NotesAndTagsApp\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:49:31.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:49:31.718Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "NotesAndTagsApp\\Models\\Tag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:47:56.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:47:56.265Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "NotesAndTagsApp\\Models\\Enum\\PriorityEnum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:46:21.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:46:21.915Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "NotesAndTagsApp\\Models\\Note.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:44:54.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:44:54.774Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "NotesAndTagsApp\\Models\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:43:58.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:43:58.7Z"
             }
           ]
         }

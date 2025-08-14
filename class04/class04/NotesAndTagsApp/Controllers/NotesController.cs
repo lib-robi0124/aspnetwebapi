@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NotesAndTagsApp.DTOs;
+using NotesAndTagsApp.Models;
 
 namespace NotesAndTagsApp.Controllers
 {
@@ -93,6 +94,52 @@ namespace NotesAndTagsApp.Controllers
             }
         }
         [HttpPut]
-        public IActionResult Put
+        public IActionResult Put([FromBody] UpdateNoteDto updateNoteDto)
+        {
+            try
+            {
+                var noteDb = StaticDb.Notes.FirstOrDefault(x => x.Id == updateNoteDto.Id);
+                if (noteDb == null)
+                {
+                    return NotFound($"the note with id {updateNoteDto.Id} was not found");
+                }
+                if (string.IsNullOrEmpty(updateNoteDto.Text))
+                {
+                    return BadRequest("Text is requered field");
+                }
+
+                var userDb = StaticDb.Users.FirstOrDefault(x => x.Id == updateNoteDto.UserId);
+                if (userDb == null)
+                {
+                    return NotFound($"user with id: {updateNoteDto.UserId} was not found");
+                }
+
+                var tags = new List<Tag>();
+                foreach (int tagId in updateNoteDto.TagIds)
+                {
+                    var tagDb = StaticDb.Tags.FirstOrDefault(x => x.Id == tagId);
+
+                    if (tagDb == null)
+                    {
+                        return NotFound($"Tag with id {tagId} was not found!");
+                    }
+                    tags.Add(tagDb);
+
+                }
+                noteDb.Text = updateNoteDto.Text;
+                noteDb.Priority = updateNoteDto.Priority;
+                noteDb.User = userDb;
+                noteDb.UserId = userDb.Id;
+                noteDb.Tags = tags;
+
+                return StatusCode(StatusCodes.Status204NoContent, "note update");
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occured, contact admin");
+            }
+        }
+        [HttpPost("addNote")]
+        public IActionResult 
     }
 }
