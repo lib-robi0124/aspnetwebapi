@@ -447,23 +447,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {},
+    "C:\\Users\\Robertr2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\NotesAndTagsApp.csproj",
+      "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\NotesAndTagsApp.csproj",
       "projectName": "NotesAndTagsApp",
-      "projectPath": "D:\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\NotesAndTagsApp.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "D:\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\obj\\",
+      "projectPath": "D:\\qinshift\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\NotesAndTagsApp.csproj",
+      "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+      "outputPath": "D:\\qinshift\\aspnetwebapi\\class04\\class04\\NotesAndTagsApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
