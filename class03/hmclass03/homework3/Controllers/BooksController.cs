@@ -87,5 +87,26 @@ namespace homework3.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, $"An error occured! Contact the admin {e.Message}");
             }
         }
+        [HttpPost("list")] // POST: api/books/list //bonus
+        public IActionResult List()
+        {
+            try
+            {
+                // Get the list of books from the request body
+                List<Book> books = StaticDb.Books;
+                // Check if the list is empty
+                if (books == null || books.Count == 0)
+                {
+                    return NotFound("No books found.");
+                }
+                // Return the titles of the books as a list of strings
+                var titles = books.Select(b => b.Title).ToList();
+                return Ok(titles);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"An error occured! Contact the admin {e.Message}");
+            }
+        }
     }
 }

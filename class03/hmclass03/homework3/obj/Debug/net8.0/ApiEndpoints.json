@@ -68,6 +68,16 @@
   },
   {
     "ContainingType": "homework3.Controllers.BooksController",
+    "Method": "List",
+    "RelativePath": "api/Books/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "homework3.Controllers.BooksController",
     "Method": "GetBookByIndex",
     "RelativePath": "api/Books/queryString",
     "HttpMethod": "GET",
