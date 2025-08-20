@@ -1,5 +1,4 @@
 ﻿using FluentAPI.Domain.Enums;
-using FluentAPI.Domain.Models;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -10,7 +9,6 @@ namespace FluentAPI.Domain.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-      
         public string Text { get; set; }
         public Priority Priority { get; set; }
         public Tag Tag { get; set; }

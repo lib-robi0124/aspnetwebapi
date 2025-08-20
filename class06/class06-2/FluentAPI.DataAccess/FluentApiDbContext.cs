@@ -1,5 +1,4 @@
 ﻿using FluentAPI.Domain.Models;
-using Microsoft.Azure.Documents;
 using Microsoft.EntityFrameworkCore;
 
 namespace FluentAPI.DataAccess
@@ -15,28 +14,55 @@ namespace FluentAPI.DataAccess
         {
             base.OnModelCreating(modelBuilder);
 
+            #region NoteConfig
+            // Note
+            //Constaints za text propertito
             modelBuilder.Entity<Note>()
-                .Property(n => n.Text)
+                .Property(e => e.Text)
                 .HasMaxLength(100)
-                .IsRequired();
+                .IsRequired(); // not null
+
             modelBuilder.Entity<Note>()
-                .Property(n => n.Priority)
-                .IsRequired();
-            modelBuilder.Entity<Note>()
-                .Property(n => n.Tag)
+                .Property(x => x.Priority)
                 .IsRequired();
 
-            //Relationships
             modelBuilder.Entity<Note>()
-                .HasOne(n => n.User)
-                .WithMany(u => u.Notes)
-                .HasForeignKey(n => n.UserId);
-            // User entity configuration
+                .Property(x => x.Tag)
+                .IsRequired();
+
+            //Relation
+            modelBuilder.Entity<Note>()
+                .HasOne(x => x.User)
+                .WithMany(x => x.Notes)
+                .HasForeignKey(x => x.UserId);
+
+            #endregion
+
+            #region UserConfig
+
+            //USER
             modelBuilder.Entity<User>()
-                .Property(u => u.FirstName)
+                .Property(x => x.FirstName)
                 .HasMaxLength(50);
 
+            modelBuilder.Entity<User>()
+                .Property(x => x.LastName)
+                .HasMaxLength(50);
 
+            modelBuilder.Entity<User>()
+                .Property(x => x.Username)
+                .HasMaxLength(30)
+                .IsRequired();
+
+            modelBuilder.Entity<User>()
+                .Ignore(x => x.Age);
+
+            #endregion
+
+            #region SeedData
+            // SEED
+            #endregion
         }
+
     }
 }

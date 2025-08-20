@@ -1,0 +1,15 @@
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\bin\Debug\net8.0\FluentAPI.Domain.deps.json
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\bin\Debug\net8.0\FluentAPI.Domain.runtimeconfig.json
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\bin\Debug\net8.0\FluentAPI.Domain.dll
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\bin\Debug\net8.0\FluentAPI.Domain.pdb
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.csproj.AssemblyReference.cache
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.AssemblyInfoInputs.cache
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.AssemblyInfo.cs
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.csproj.CoreCompileInputs.cache
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.sourcelink.json
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.dll
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\refint\FluentAPI.Domain.dll
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.pdb
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\FluentAPI.Domain.genruntimeconfig.cache
+C:\qinshift\aspnetwebapi\class06\class06-2\FluentAPI.Domain\obj\Debug\net8.0\ref\FluentAPI.Domain.dll
