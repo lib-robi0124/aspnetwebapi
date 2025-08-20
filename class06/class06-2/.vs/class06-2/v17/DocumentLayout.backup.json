@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06-2\\fluentapi.domain\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|solutionrelative:fluentapi.domain\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06-2\\fluentapi.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|solutionrelative:fluentapi.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E7E6AF-37E0-4964-A9D0-6F141E049E82}|FluentAPI.DataAccess\\FluentAPI.DataAccess.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06-2\\fluentapi.dataaccess\\fluentapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E7E6AF-37E0-4964-A9D0-6F141E049E82}|FluentAPI.DataAccess\\FluentAPI.DataAccess.csproj|solutionrelative:fluentapi.dataaccess\\fluentapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0948C32-E347-4029-97BB-3EC000E98A21}|FluentAPI.Helpers\\FluentAPI.Helpers.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06-2\\fluentapi.helpers\\dihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0948C32-E347-4029-97BB-3EC000E98A21}|FluentAPI.Helpers\\FluentAPI.Helpers.csproj|solutionrelative:fluentapi.helpers\\dihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9584A739-AFEF-46AF-AD17-C5E2A4C22904}|FluentAPI\\FluentAPI.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06-2\\fluentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9584A739-AFEF-46AF-AD17-C5E2A4C22904}|FluentAPI\\FluentAPI.csproj|solutionrelative:fluentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06-2\\fluentapi.domain\\enums\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|solutionrelative:fluentapi.domain\\enums\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06-2\\fluentapi.domain\\enums\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|solutionrelative:fluentapi.domain\\enums\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06-2\\fluentapi.domain\\fluentapi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8970CD1-1332-4036-A71D-780B5914CF0A}|FluentAPI.Domain\\FluentAPI.Domain.csproj|solutionrelative:fluentapi.domain\\fluentapi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FluentAPI\\Program.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI\\Program.cs",
+              "RelativeToolTip": "FluentAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:31:09.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DIHelper.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Helpers\\DIHelper.cs",
+              "RelativeDocumentMoniker": "FluentAPI.Helpers\\DIHelper.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Helpers\\DIHelper.cs",
+              "RelativeToolTip": "FluentAPI.Helpers\\DIHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:29:42.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FluentApiDbContext.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.DataAccess\\FluentApiDbContext.cs",
+              "RelativeDocumentMoniker": "FluentAPI.DataAccess\\FluentApiDbContext.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.DataAccess\\FluentApiDbContext.cs",
+              "RelativeToolTip": "FluentAPI.DataAccess\\FluentApiDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:27:57.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FluentAPI.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\Models\\User.cs",
+              "RelativeToolTip": "FluentAPI.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:25:43.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "FluentAPI.Domain\\Models\\Note.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\Models\\Note.cs",
+              "RelativeToolTip": "FluentAPI.Domain\\Models\\Note.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:23:46.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\Enums\\Tag.cs",
+              "RelativeDocumentMoniker": "FluentAPI.Domain\\Enums\\Tag.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\Enums\\Tag.cs",
+              "RelativeToolTip": "FluentAPI.Domain\\Enums\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:22:21.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\Enums\\Priority.cs",
+              "RelativeDocumentMoniker": "FluentAPI.Domain\\Enums\\Priority.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\Enums\\Priority.cs",
+              "RelativeToolTip": "FluentAPI.Domain\\Enums\\Priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T18:22:08.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FluentAPI.Domain",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\FluentAPI.Domain.csproj",
+              "RelativeDocumentMoniker": "FluentAPI.Domain\\FluentAPI.Domain.csproj",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06-2\\FluentAPI.Domain\\FluentAPI.Domain.csproj",
+              "RelativeToolTip": "FluentAPI.Domain\\FluentAPI.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T18:21:31.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

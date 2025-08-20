@@ -1,0 +1,15 @@
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\bin\Debug\net8.0\DataAnnotations.Domain.deps.json
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\bin\Debug\net8.0\DataAnnotations.Domain.runtimeconfig.json
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\bin\Debug\net8.0\DataAnnotations.Domain.dll
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\bin\Debug\net8.0\DataAnnotations.Domain.pdb
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.csproj.AssemblyReference.cache
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.AssemblyInfoInputs.cache
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.AssemblyInfo.cs
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.csproj.CoreCompileInputs.cache
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.sourcelink.json
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.dll
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\refint\DataAnnotations.Domain.dll
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.pdb
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\DataAnnotations.Domain.genruntimeconfig.cache
+C:\qinshift\aspnetwebapi\class06\class06\DataAnnotations.Domain\obj\Debug\net8.0\ref\DataAnnotations.Domain.dll
