@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.domain\\enums\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|solutionrelative:dataannotations.domain\\enums\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.domain\\enums\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|solutionrelative:dataannotations.domain\\enums\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.domain\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|solutionrelative:dataannotations.domain\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1507A0CB-7163-4586-91FC-A4F88A24A8C3}|DataAnnotations.Helpers\\DataAnnotations.Helpers.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.helpers\\dependencyinjectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1507A0CB-7163-4586-91FC-A4F88A24A8C3}|DataAnnotations.Helpers\\DataAnnotations.Helpers.csproj|solutionrelative:dataannotations.helpers\\dependencyinjectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D898AF0-12CD-474E-BA4A-B174040D8B63}|DataAnnotations.DataAccess\\DataAnnotations.DataAccess.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.dataaccess\\dataannotationsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D898AF0-12CD-474E-BA4A-B174040D8B63}|DataAnnotations.DataAccess\\DataAnnotations.DataAccess.csproj|solutionrelative:dataannotations.dataaccess\\dataannotationsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.domain\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|solutionrelative:dataannotations.domain\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.domain\\enums\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|solutionrelative:dataannotations.domain\\enums\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|solutionrelative:dataannotations.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26095F3E-0D32-4741-8098-FD306E7FA77F}|DataAnnotations\\DataAnnotations.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26095F3E-0D32-4741-8098-FD306E7FA77F}|DataAnnotations\\DataAnnotations.csproj|solutionrelative:dataannotations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.domain\\enums\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E164D9E1-91CD-4FBB-B033-8E7F60EDB8C8}|DataAnnotations.Domain\\DataAnnotations.Domain.csproj|solutionrelative:dataannotations.domain\\enums\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1507A0CB-7163-4586-91FC-A4F88A24A8C3}|DataAnnotations.Helpers\\DataAnnotations.Helpers.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations.helpers\\dependencyinjectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1507A0CB-7163-4586-91FC-A4F88A24A8C3}|DataAnnotations.Helpers\\DataAnnotations.Helpers.csproj|solutionrelative:dataannotations.helpers\\dependencyinjectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26095F3E-0D32-4741-8098-FD306E7FA77F}|DataAnnotations\\DataAnnotations.csproj|c:\\qinshift\\aspnetwebapi\\class06\\class06\\dataannotations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26095F3E-0D32-4741-8098-FD306E7FA77F}|DataAnnotations\\DataAnnotations.csproj|solutionrelative:dataannotations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations\\Program.cs",
               "RelativeDocumentMoniker": "DataAnnotations\\Program.cs",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "DependencyInjectionHelper.cs",
               "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.Helpers\\DependencyInjectionHelper.cs",
               "RelativeDocumentMoniker": "DataAnnotations.Helpers\\DependencyInjectionHelper.cs",
@@ -66,11 +66,12 @@
               "RelativeToolTip": "DataAnnotations.Helpers\\DependencyInjectionHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T17:30:07.416Z"
+              "WhenOpened": "2025-08-19T17:30:07.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DataAnnotationsDbContext.cs",
               "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.DataAccess\\DataAnnotationsDbContext.cs",
               "RelativeDocumentMoniker": "DataAnnotations.DataAccess\\DataAnnotationsDbContext.cs",
@@ -78,23 +79,12 @@
               "RelativeToolTip": "DataAnnotations.DataAccess\\DataAnnotationsDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T17:01:40.868Z"
+              "WhenOpened": "2025-08-19T17:01:40.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Note.cs",
-              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.Domain\\Models\\Note.cs",
-              "RelativeDocumentMoniker": "DataAnnotations.Domain\\Models\\Note.cs",
-              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.Domain\\Models\\Note.cs",
-              "RelativeToolTip": "DataAnnotations.Domain\\Models\\Note.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:43:36.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Priority.cs",
               "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.Domain\\Enums\\Priority.cs",
               "RelativeDocumentMoniker": "DataAnnotations.Domain\\Enums\\Priority.cs",
@@ -102,11 +92,12 @@
               "RelativeToolTip": "DataAnnotations.Domain\\Enums\\Priority.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:43:36.505Z"
+              "WhenOpened": "2025-08-19T16:43:36.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.Domain\\Enums\\Tag.cs",
               "RelativeDocumentMoniker": "DataAnnotations.Domain\\Enums\\Tag.cs",
@@ -125,9 +116,23 @@
               "RelativeDocumentMoniker": "DataAnnotations.Domain\\Models\\User.cs",
               "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.Domain\\Models\\User.cs",
               "RelativeToolTip": "DataAnnotations.Domain\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwA0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvw0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:43:35.809Z"
+              "WhenOpened": "2025-08-19T16:43:35.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.Domain\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "DataAnnotations.Domain\\Models\\Note.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class06\\class06\\DataAnnotations.Domain\\Models\\Note.cs",
+              "RelativeToolTip": "DataAnnotations.Domain\\Models\\Note.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T16:43:36.539Z",
+              "EditorCaption": ""
             }
           ]
         }
