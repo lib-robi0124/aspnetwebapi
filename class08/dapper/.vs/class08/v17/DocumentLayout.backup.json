@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE8BA61-C0E3-4230-B2EE-03645E66D0D0}|NotesApp\\NotesApp.csproj|c:\\qinshift\\aspnetwebapi\\class08\\dapper\\notesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE8BA61-C0E3-4230-B2EE-03645E66D0D0}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF05CC7-D165-4603-A49F-7974C6F88172}|NotesApp.Helpers\\NotesApp.Helpers.csproj|c:\\qinshift\\aspnetwebapi\\class08\\dapper\\notesapp.helpers\\dependencyinjectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF05CC7-D165-4603-A49F-7974C6F88172}|NotesApp.Helpers\\NotesApp.Helpers.csproj|solutionrelative:notesapp.helpers\\dependencyinjectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28D9ECC-26DF-485E-B375-9BCAEE9C5639}|NotesApp.DataAccess\\NotesApp.DataAccess.csproj|c:\\qinshift\\aspnetwebapi\\class08\\dapper\\notesapp.dataaccess\\adoimplementation\\noteadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28D9ECC-26DF-485E-B375-9BCAEE9C5639}|NotesApp.DataAccess\\NotesApp.DataAccess.csproj|solutionrelative:notesapp.dataaccess\\adoimplementation\\noteadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28D9ECC-26DF-485E-B375-9BCAEE9C5639}|NotesApp.DataAccess\\NotesApp.DataAccess.csproj|c:\\qinshift\\aspnetwebapi\\class08\\dapper\\notesapp.dataaccess\\dapperimplentations\\notedapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28D9ECC-26DF-485E-B375-9BCAEE9C5639}|NotesApp.DataAccess\\NotesApp.DataAccess.csproj|solutionrelative:notesapp.dataaccess\\dapperimplentations\\notedapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE8BA61-C0E3-4230-B2EE-03645E66D0D0}|NotesApp\\NotesApp.csproj|c:\\qinshift\\aspnetwebapi\\class08\\dapper\\notesapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CCE8BA61-C0E3-4230-B2EE-03645E66D0D0}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF05CC7-D165-4603-A49F-7974C6F88172}|NotesApp.Helpers\\NotesApp.Helpers.csproj|c:\\qinshift\\aspnetwebapi\\class08\\dapper\\notesapp.helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF05CC7-D165-4603-A49F-7974C6F88172}|NotesApp.Helpers\\NotesApp.Helpers.csproj|solutionrelative:notesapp.helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NoteDapperRepository.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp.DataAccess\\DapperImplentations\\NoteDapperRepository.cs",
+              "RelativeDocumentMoniker": "NotesApp.DataAccess\\DapperImplentations\\NoteDapperRepository.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp.DataAccess\\DapperImplentations\\NoteDapperRepository.cs",
+              "RelativeToolTip": "NotesApp.DataAccess\\DapperImplentations\\NoteDapperRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T17:09:19.768Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NoteAdoRepository.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp.DataAccess\\Adoimplementation\\NoteAdoRepository.cs",
+              "RelativeDocumentMoniker": "NotesApp.DataAccess\\Adoimplementation\\NoteAdoRepository.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp.DataAccess\\Adoimplementation\\NoteAdoRepository.cs",
+              "RelativeToolTip": "NotesApp.DataAccess\\Adoimplementation\\NoteAdoRepository.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T18:08:44.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp.Helpers\\AppSettings.cs",
+              "RelativeDocumentMoniker": "NotesApp.Helpers\\AppSettings.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp.Helpers\\AppSettings.cs",
+              "RelativeToolTip": "NotesApp.Helpers\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T16:25:47.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp\\appsettings.json",
+              "RelativeDocumentMoniker": "NotesApp\\appsettings.json",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp\\appsettings.json",
+              "RelativeToolTip": "NotesApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T16:19:33.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp\\Program.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Program.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp\\Program.cs",
+              "RelativeToolTip": "NotesApp\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T18:45:30.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjectionHelper.cs",
+              "DocumentMoniker": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp.Helpers\\DependencyInjectionHelper.cs",
+              "RelativeDocumentMoniker": "NotesApp.Helpers\\DependencyInjectionHelper.cs",
+              "ToolTip": "C:\\qinshift\\aspnetwebapi\\class08\\dapper\\NotesApp.Helpers\\DependencyInjectionHelper.cs",
+              "RelativeToolTip": "NotesApp.Helpers\\DependencyInjectionHelper.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAWwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T18:44:06.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

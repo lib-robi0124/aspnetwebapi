@@ -1,0 +1,12 @@
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\bin\Debug\net8.0\NotesApp.Domain.deps.json
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\bin\Debug\net8.0\NotesApp.Domain.dll
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\bin\Debug\net8.0\NotesApp.Domain.pdb
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\NotesApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\NotesApp.Domain.AssemblyInfoInputs.cache
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\NotesApp.Domain.AssemblyInfo.cs
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\NotesApp.Domain.csproj.CoreCompileInputs.cache
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\NotesApp.Domain.sourcelink.json
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\NotesApp.Domain.dll
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\refint\NotesApp.Domain.dll
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\NotesApp.Domain.pdb
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Domain\obj\Debug\net8.0\ref\NotesApp.Domain.dll

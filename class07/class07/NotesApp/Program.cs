@@ -9,8 +9,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//read app settings from configuration, find the "AppSettings" section, and bind it to the AppSettings class
+var appSettings = builder.Configuration.GetSection("AppSettings");
+builder.Services.Configure<AppSettings>(appSettings);
+
+AppSettings appSettingsObject = appSettings.Get<AppSettings>();
+
 // Inject the DbContext and repositories
-DependencyInjectionHelper.InjectDbContext(builder.Services);
+DependencyInjectionHelper.InjectDbContext(builder.Services, appSettingsObject.ConnectionString);
 DependencyInjectionHelper.InjectRepositories(builder.Services);
 DependencyInjectionHelper.InjectServices(builder.Services);
 

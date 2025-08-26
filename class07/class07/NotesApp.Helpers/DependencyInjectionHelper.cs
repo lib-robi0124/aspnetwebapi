@@ -10,11 +10,13 @@ namespace NotesApp.Helpers
 {
     public static class DependencyInjectionHelper
     {
-        public static void InjectDbContext(IServiceCollection services)
+        public static void InjectDbContext(IServiceCollection services, string connectionString)
         {             // Register the DbContext with the dependency injection container
+            //services.AddDbContext<NotesAppDbCpntext>(options =>
+            //    options.UseSqlServer("Server=.;Database=NotesAppDb;Trusted_Connection=True;TrustServerCertificate=True"));
+            //// Register repositories
             services.AddDbContext<NotesAppDbCpntext>(options =>
-                options.UseSqlServer("Server=.;Database=NotesAppDb;Trusted_Connection=True;TrustServerCertificate=True"));
-            // Register repositories
+                options.UseSqlServer(connectionString));
             services.AddScoped<IRepository<Note>, NoteRepository>();
             services.AddScoped<IRepository<User>, UserRepository>();
         }

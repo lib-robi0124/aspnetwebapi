@@ -1,0 +1,12 @@
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\bin\Debug\net8.0\NotesApp.Shared.deps.json
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\bin\Debug\net8.0\NotesApp.Shared.dll
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\bin\Debug\net8.0\NotesApp.Shared.pdb
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\NotesApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\NotesApp.Shared.AssemblyInfoInputs.cache
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\NotesApp.Shared.AssemblyInfo.cs
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\NotesApp.Shared.csproj.CoreCompileInputs.cache
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\NotesApp.Shared.sourcelink.json
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\NotesApp.Shared.dll
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\refint\NotesApp.Shared.dll
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\NotesApp.Shared.pdb
+C:\qinshift\aspnetwebapi\class07\class07\NotesApp.Shared\obj\Debug\net8.0\ref\NotesApp.Shared.dll
