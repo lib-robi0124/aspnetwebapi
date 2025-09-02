@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Avenga.NotesApp.Dtos/1.0.0": {
+        "dependencies": {
+          "Avenga.NotesApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Avenga.NotesApp.Dtos.dll": {}
+        }
+      },
+      "Avenga.NotesApp.Domain/1.0.0": {
+        "runtime": {
+          "Avenga.NotesApp.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Avenga.NotesApp.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Avenga.NotesApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
