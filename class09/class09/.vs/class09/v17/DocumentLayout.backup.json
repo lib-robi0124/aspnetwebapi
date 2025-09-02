@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8441B4-665F-49C3-A83C-687F15BD77A9}|SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.services\\implementations\\movieservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8441B4-665F-49C3-A83C-687F15BD77A9}|SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj|solutionrelative:sedc.movieapp.services\\implementations\\movieservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50E81CC0-3409-46BF-8718-7A8F66381F04}|SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.mappers\\moviemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E81CC0-3409-46BF-8718-7A8F66381F04}|SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj|solutionrelative:sedc.movieapp.mappers\\moviemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.dataaccess\\implementation\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|solutionrelative:sedc.movieapp.dataaccess\\implementation\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.dataaccess\\sedc.movieapp.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|solutionrelative:sedc.movieapp.dataaccess\\sedc.movieapp.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.dataaccess\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|solutionrelative:sedc.movieapp.dataaccess\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.dataaccess\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|solutionrelative:sedc.movieapp.dataaccess\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.dataaccess\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|solutionrelative:sedc.movieapp.dataaccess\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieMapper.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Mappers\\MovieMapper.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.Mappers\\MovieMapper.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Mappers\\MovieMapper.cs",
+              "RelativeToolTip": "SEDC.MovieApp.Mappers\\MovieMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T12:06:05.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieServices.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\Implementations\\MovieServices.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.Services\\Implementations\\MovieServices.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\Implementations\\MovieServices.cs",
+              "RelativeToolTip": "SEDC.MovieApp.Services\\Implementations\\MovieServices.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:08:05.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\Implementation\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\Implementation\\MovieRepository.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\Implementation\\MovieRepository.cs",
+              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\Implementation\\MovieRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswDgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:56:28.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SEDC.MovieApp.DataAccess.csproj",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj",
+              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-02T06:53:17.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\IMovieRepository.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\IMovieRepository.cs",
+              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:54:31.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\IRepository.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\IRepository.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\IRepository.cs",
+              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:53:27.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MoviesDbContext.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\MoviesDbContext.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\MoviesDbContext.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\MoviesDbContext.cs",
+              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\MoviesDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:46:09.549Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

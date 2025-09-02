@@ -1,0 +1,12 @@
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\bin\Debug\net8.0\SEDC.MovieApp.Shared.deps.json
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\bin\Debug\net8.0\SEDC.MovieApp.Shared.dll
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\bin\Debug\net8.0\SEDC.MovieApp.Shared.pdb
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\SEDC.MovieApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\SEDC.MovieApp.Shared.AssemblyInfoInputs.cache
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\SEDC.MovieApp.Shared.AssemblyInfo.cs
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\SEDC.MovieApp.Shared.csproj.CoreCompileInputs.cache
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\SEDC.MovieApp.Shared.sourcelink.json
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\SEDC.MovieApp.Shared.dll
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\refint\SEDC.MovieApp.Shared.dll
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\SEDC.MovieApp.Shared.pdb
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Shared\obj\Debug\net8.0\ref\SEDC.MovieApp.Shared.dll
