@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj": {}
+    "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj": {}
   },
   "projects": {
-    "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj": {
+    "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj",
+        "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj",
         "projectName": "Avenga.NotesApp.Domain",
-        "projectPath": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\obj\\",
+        "projectPath": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+        "outputPath": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,20 +69,20 @@
         }
       }
     },
-    "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj": {
+    "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj",
+        "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj",
         "projectName": "Avenga.NotesApp.Dtos",
-        "projectPath": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\obj\\",
+        "projectPath": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj",
+        "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+        "outputPath": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj": {
-                "projectPath": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj"
+              "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj": {
+                "projectPath": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Domain\\Avenga.NotesApp.Domain.csproj"
               }
             }
           }
@@ -138,20 +138,20 @@
         }
       }
     },
-    "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj": {
+    "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj",
+        "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj",
         "projectName": "Avenga.NotesApp.Mappers",
-        "projectPath": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\obj\\",
+        "projectPath": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj",
+        "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+        "outputPath": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Mappers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -166,8 +166,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj": {
-                "projectPath": "C:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj"
+              "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj": {
+                "projectPath": "D:\\qinshift\\aspnetwebapi\\class10\\Avenga.NotesApp\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj"
               }
             }
           }

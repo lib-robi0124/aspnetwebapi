@@ -161,3 +161,15 @@ C:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.
 C:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.pdb
 C:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.genruntimeconfig.cache
 C:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\ref\Avenga.NotesApp.dll
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.csproj.AssemblyReference.cache
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.AssemblyInfoInputs.cache
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.AssemblyInfo.cs
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.csproj.CoreCompileInputs.cache
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.MvcApplicationPartsAssemblyInfo.cs
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.MvcApplicationPartsAssemblyInfo.cache
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.sourcelink.json
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.dll
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\refint\Avenga.NotesApp.dll
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp\obj\Debug\net8.0\Avenga.NotesApp.pdb

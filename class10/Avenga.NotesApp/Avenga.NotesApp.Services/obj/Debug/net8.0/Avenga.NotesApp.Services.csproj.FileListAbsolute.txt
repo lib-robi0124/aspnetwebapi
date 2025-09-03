@@ -22,3 +22,12 @@ C:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\De
 C:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\refint\Avenga.NotesApp.Services.dll
 C:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.pdb
 C:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\ref\Avenga.NotesApp.Services.dll
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.csproj.AssemblyReference.cache
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.AssemblyInfoInputs.cache
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.AssemblyInfo.cs
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.csproj.CoreCompileInputs.cache
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.sourcelink.json
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.dll
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\refint\Avenga.NotesApp.Services.dll
+D:\qinshift\aspnetwebapi\class10\Avenga.NotesApp\Avenga.NotesApp.Services\obj\Debug\net8.0\Avenga.NotesApp.Services.pdb

@@ -18,8 +18,9 @@ namespace Avenga.NotesApp.Services.Implementations
         {
             _userRepository = userRepository;
         }
-        public void LoginUser(LoginUserDto loginUserDto)
+        public string LoginUser(LoginUserDto loginUserDto)
         {
+            //validations
             if (string.IsNullOrEmpty(loginUserDto.Username) || string.IsNullOrEmpty(loginUserDto.Password))
             {
                 throw new UserDataException("Username and password are required.");
@@ -56,10 +57,9 @@ namespace Avenga.NotesApp.Services.Implementations
             };
             //create token
             SecurityToken securityToken = jwtSecurityTokenHandler.CreateToken(securityTokenDescriptor);
-            string token = jwtSecurityTokenHandler.WriteToken(securityToken);
+            return jwtSecurityTokenHandler.WriteToken(securityToken);
             
-            
-        }
+         }
 
         public void RegisterUser(RegisterUserDto registerUserDto)
         {
