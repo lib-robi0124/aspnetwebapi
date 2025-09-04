@@ -40,10 +40,10 @@ namespace SEDC.MovieApp.Services.Implementations
             JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
             byte[] secretKeyBytes = Encoding.ASCII.GetBytes("Our very very secret secret key!");
             SecurityTokenDescriptor securityTokenDescriptor = new SecurityTokenDescriptor
-        {
-    //payload-claims
-    Subject = new System.Security.Claims.ClaimsIdentity(new[]
-    {
+            {
+                //payload-claims
+                Subject = new System.Security.Claims.ClaimsIdentity(new[]
+                 {
                     new Claim("Id", userDb.Id.ToString()),
                     new Claim(ClaimTypes.Name, userDb.Username),
                     new Claim("FirstName", userDb.FirstName ?? ""),
@@ -51,13 +51,13 @@ namespace SEDC.MovieApp.Services.Implementations
                     new Claim(ClaimTypes.Role, "User"),
                     new Claim("userFullName", $"{userDb.FirstName} {userDb.LastName}")
                 }),
-    Expires = DateTime.UtcNow.AddHours(1), //token valid for 1 hour upon generation
+            Expires = DateTime.UtcNow.AddHours(1), //token valid for 1 hour upon generation
                                            //signing credentials-configuration
-    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(secretKeyBytes), SecurityAlgorithms.HmacSha256Signature)
-};
-//create token
-SecurityToken securityToken = jwtSecurityTokenHandler.CreateToken(securityTokenDescriptor);
-return jwtSecurityTokenHandler.WriteToken(securityToken);
+             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(secretKeyBytes), SecurityAlgorithms.HmacSha256Signature)
+            };
+                //create token
+                SecurityToken securityToken = jwtSecurityTokenHandler.CreateToken(securityTokenDescriptor);
+                return jwtSecurityTokenHandler.WriteToken(securityToken);
             
          }
 
