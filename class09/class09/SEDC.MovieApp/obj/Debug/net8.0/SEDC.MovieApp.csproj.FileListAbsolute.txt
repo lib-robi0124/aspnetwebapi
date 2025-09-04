@@ -120,7 +120,9 @@ C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\SEDC.Mov
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\SEDC.MovieApp.pdb
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\Azure.Core.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\Azure.Identity.dll
+C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\Microsoft.Practices.ServiceLocation.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\Humanizer.dll
+C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -169,6 +171,7 @@ C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\System.R
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\XAct.Core.PCL.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll

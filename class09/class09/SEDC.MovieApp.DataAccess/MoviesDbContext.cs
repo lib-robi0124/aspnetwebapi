@@ -8,6 +8,7 @@ namespace SEDC.MovieApp.DataAccess
     {
         public MoviesDbContext(DbContextOptions options) : base(options) { }
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<User> Users { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Movie>()
@@ -41,6 +42,18 @@ namespace SEDC.MovieApp.DataAccess
                     Year = 2020
                 }
                 );
+            modelBuilder.Entity<User>()
+                        .Property(x => x.FirstName)
+                        .HasMaxLength(50);
+
+            modelBuilder.Entity<User>()
+                        .Property(x => x.LastName)
+                        .HasMaxLength(50);
+
+            modelBuilder.Entity<User>()
+                        .Property(x => x.Username)
+                        .HasMaxLength(30)
+                        .IsRequired();
         }
     }
 }

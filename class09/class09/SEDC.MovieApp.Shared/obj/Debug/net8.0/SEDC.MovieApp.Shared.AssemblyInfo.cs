@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEDC.MovieApp.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9556b81c845c6cfe568927bb794782279efcbdd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+210b97ca1f715e0e322649219a1742d3621b0373")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEDC.MovieApp.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEDC.MovieApp.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

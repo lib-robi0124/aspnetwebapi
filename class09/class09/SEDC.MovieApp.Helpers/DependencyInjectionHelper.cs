@@ -9,13 +9,15 @@ namespace SEDC.MovieApp.Helpers
 {
     public static class DependencyInjectionHelper
     {
-        public static void InjectDbContext(IServiceCollection services)
+        public static void InjectDbContext(IServiceCollection services, string connectionString)
         {
-            services.AddDbContext<MoviesDbContext>(x => x.UseSqlServer("Server=.;Database=NotesAppDb;Trusted_Connection=True;TrustServerCertificate=True"));
+            services.AddDbContext<MoviesDbContext>(x =>
+            x.UseSqlServer(connectionString)); 
         }
         public static void InjectRepositories(IServiceCollection services)
         {
             services.AddTransient<IMovieRepository, MovieRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
         }
         public static void InjectServices(IServiceCollection services)
         {
