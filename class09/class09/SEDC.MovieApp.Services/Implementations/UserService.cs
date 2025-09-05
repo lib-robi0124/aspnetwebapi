@@ -35,7 +35,7 @@ namespace SEDC.MovieApp.Services.Implementations
             if (userDb == null)
             {
                 throw new UserDataException("Invalid username or password.");
-        }
+             }
             //generate token JWT
             JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
             byte[] secretKeyBytes = Encoding.ASCII.GetBytes("Our very very secret secret key!");

@@ -22,6 +22,7 @@ namespace SEDC.MovieApp.Helpers
         public static void InjectServices(IServiceCollection services)
         {
             services.AddTransient<IMovieService, MovieServices>();
+            services.AddTransient<IUserService, UserService>();
         }
 
     }

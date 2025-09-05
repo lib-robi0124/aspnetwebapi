@@ -2861,23 +2861,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\Robertr2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+      "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
       "projectName": "SEDC.MovieApp.Services",
-      "projectPath": "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\obj\\",
+      "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+      "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+      "outputPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2892,17 +2892,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj": {
-              "projectPath": "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj"
+            "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj"
             },
-            "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj": {
-              "projectPath": "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj"
+            "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj"
             },
-            "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj": {
-              "projectPath": "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj"
+            "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj"
             },
-            "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Shared\\SEDC.MovieApp.Shared.csproj": {
-              "projectPath": "C:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Shared\\SEDC.MovieApp.Shared.csproj"
+            "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Shared\\SEDC.MovieApp.Shared.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Shared\\SEDC.MovieApp.Shared.csproj"
             }
           }
         }

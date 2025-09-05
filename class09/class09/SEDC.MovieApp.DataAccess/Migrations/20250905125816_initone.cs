@@ -7,7 +7,7 @@
 namespace SEDC.MovieApp.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class initmovieuser : Migration
+    public partial class initone : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

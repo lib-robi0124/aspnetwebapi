@@ -12,8 +12,8 @@ using SEDC.MovieApp.DataAccess;
 namespace SEDC.MovieApp.DataAccess.Migrations
 {
     [DbContext(typeof(MoviesDbContext))]
-    [Migration("20250904180757_initmovieuser")]
-    partial class initmovieuser
+    [Migration("20250905125816_initone")]
+    partial class initone
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
