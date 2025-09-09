@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using SEDC.MovieApp.DataAccess;
 using SEDC.MovieApp.DataAccess.Implementation;
 using SEDC.MovieApp.Helpers;
 using SEDC.MovieApp.Services.Implementations;
 using SEDC.MovieApp.Services.Interfaces;
+using Swashbuckle.AspNetCore.Filters;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +16,27 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    //// Add documentation metadata (this is what Swagger needs for version)
+    //c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    //{
+    //    Title = "My API",
+    //    Version = "v1",
+    //    Description = "My API with Swagger and JWT auth"
+    //});
+
+    c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+    {
+        Description = "Standard Authorization header using the Bearer scheme, e.g. \"bearer {token}\"",
+        In = ParameterLocation.Header,
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+
+    c.OperationFilter<SecurityRequirementsOperationFilter>();
+});
+
 //manual DI
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();

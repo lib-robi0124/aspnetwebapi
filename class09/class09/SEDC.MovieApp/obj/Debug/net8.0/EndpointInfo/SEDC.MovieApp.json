@@ -463,6 +463,14 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "oauth2": {
+        "type": "apiKey",
+        "description": "Standard Authorization header using the Bearer scheme, e.g. \"bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
   }
 }
