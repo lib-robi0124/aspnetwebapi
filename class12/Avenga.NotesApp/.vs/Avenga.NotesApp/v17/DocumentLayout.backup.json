@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\qinshift\\mkwd13-net-09-aspnetwebapi\\G2\\Class10\\Avenga.NotesApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{706BD964-61DB-4914-9FF8-2888207A6E20}|Avenga.NotesApp.Tests\\Avenga.NotesApp.Tests.csproj|d:\\qinshift\\aspnetwebapi\\class12\\avenga.notesapp\\avenga.notesapp.tests\\notetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706BD964-61DB-4914-9FF8-2888207A6E20}|Avenga.NotesApp.Tests\\Avenga.NotesApp.Tests.csproj|solutionrelative:avenga.notesapp.tests\\notetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoteTests.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Tests\\NoteTests.cs",
+              "RelativeDocumentMoniker": "Avenga.NotesApp.Tests\\NoteTests.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Tests\\NoteTests.cs",
+              "RelativeToolTip": "Avenga.NotesApp.Tests\\NoteTests.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwFMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T07:27:52.674Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -2943,23 +2943,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\Robertr2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Helpers\\Avenga.NotesApp.Helpers.csproj",
+      "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Helpers\\Avenga.NotesApp.Helpers.csproj",
       "projectName": "Avenga.NotesApp.Helpers",
-      "projectPath": "C:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Helpers\\Avenga.NotesApp.Helpers.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Helpers\\obj\\",
+      "projectPath": "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Helpers\\Avenga.NotesApp.Helpers.csproj",
+      "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+      "outputPath": "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2974,11 +2974,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.DataAccess\\Avenga.NotesApp.DataAccess.csproj": {
-              "projectPath": "C:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.DataAccess\\Avenga.NotesApp.DataAccess.csproj"
+            "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.DataAccess\\Avenga.NotesApp.DataAccess.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.DataAccess\\Avenga.NotesApp.DataAccess.csproj"
             },
-            "C:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Services\\Avenga.NotesApp.Services.csproj": {
-              "projectPath": "C:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Services\\Avenga.NotesApp.Services.csproj"
+            "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Services\\Avenga.NotesApp.Services.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class12\\Avenga.NotesApp\\Avenga.NotesApp.Services\\Avenga.NotesApp.Services.csproj"
             }
           }
         }
@@ -3020,7 +3020,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

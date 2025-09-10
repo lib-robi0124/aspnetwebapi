@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Avenga.NotesApp.Helpers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a3b9fabe42dfd93ec29eede37e9bc500a44ff90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e0b75e096096da8951ec5091ed41cb7f1d525ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Avenga.NotesApp.Helpers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Avenga.NotesApp.Helpers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
