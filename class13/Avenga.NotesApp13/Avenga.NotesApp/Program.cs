@@ -43,7 +43,9 @@ DependencyInjectionHelper.InjectRepositories(builder.Services);
 //DependencyInjectionHelper.InjectAdoRepositories(builder.Services, appSettingsObject.ConnectionString);
 DependencyInjectionHelper.InjectServices(builder.Services);
 
-
+//added httpClient in our app pipeline for the fruit service
+// documentation about the external API => https://www.fruityvice.com/doc/index.html#api-GET-GETsByOrder
+//External API location => https://www.fruityvice.com
 builder.Services.AddHttpClient<FruitService>(); //adding HttpClient for FruitService
 
 //Configure JWT

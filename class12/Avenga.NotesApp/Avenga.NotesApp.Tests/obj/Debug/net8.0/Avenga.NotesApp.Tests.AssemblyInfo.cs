@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Avenga.NotesApp.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e0b75e096096da8951ec5091ed41cb7f1d525ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b7bdd0ff703f52b295deb11601a77f6a284cd47")]
 [assembly: System.Reflection.AssemblyProductAttribute("Avenga.NotesApp.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Avenga.NotesApp.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

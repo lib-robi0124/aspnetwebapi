@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "Avenga.NotesApp.Controllers.FruitController",
+    "Method": "GetFruitByName",
+    "RelativePath": "api/Fruit/{fruitName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fruitName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Avenga.NotesApp.Controllers.FruitController",
+    "Method": "GetAllFruits",
+    "RelativePath": "api/Fruit/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Avenga.NotesApp.Controllers.FruitController",
+    "Method": "GetFruitsByFamily",
+    "RelativePath": "api/Fruit/family/{familyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "familyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Avenga.NotesApp.Controllers.FruitController",
+    "Method": "GetFruitsByGenus",
+    "RelativePath": "api/Fruit/genus/{genusName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genusName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Avenga.NotesApp.Controllers.FruitController",
+    "Method": "GetFruitsByOrder",
+    "RelativePath": "api/Fruit/order/{orderName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Avenga.NotesApp.Controllers.NotesController",
     "Method": "GetAll",
     "RelativePath": "api/Notes",

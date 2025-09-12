@@ -12,24 +12,27 @@ namespace Avenga.NotesApp.Services.Implementations
             _httpClient = httpClient;
         }
         //private const string BaseUrl = "https://www.fruityvice.com/api/fruit";
-        public async Task<List<FruitDto>> GetAllFruitsAsync(string fruitName)
+        public async Task<List<FruitDto>> GetAllFruitsAsync()
         {
             var response = await _httpClient.GetAsync("https://www.fruityvice.com/api/fruit/all");
             if (response.IsSuccessStatusCode)
             {
+                //this will read the content that we get as a string
                 var json = await response.Content.ReadAsStringAsync();
+
+                //we need to deserialize the string and set naming policy for the data to be in camel case
                 return JsonSerializer.Deserialize<List<FruitDto>>(json, new JsonSerializerOptions
                 {
                     PropertyNamingPolicy = JsonNamingPolicy.CamelCase
                 });
-                return null;
             }
+            return null;
         }
 
-        public async Task<FruitDto> GetFruitInfoAsync(string fruitname)
+        public async Task<FruitDto> GetFruitInfoAsync(string fruitName)
         {
             //var response = await _httpClient.GetAsync($"https://www.fruityvice.com/api/fruit/{fruitname}");
-            var response = await _httpClient.GetAsync($"https://www.fruityvice.com/api/fruit/all");
+            var response = await _httpClient.GetAsync("https://www.fruityvice.com/api/fruit/all");
 
             if (response.IsSuccessStatusCode)
             {
@@ -38,24 +41,67 @@ namespace Avenga.NotesApp.Services.Implementations
                 {
                     PropertyNamingPolicy = JsonNamingPolicy.CamelCase
                 });
-                var fruitByName = result.FirstOrDefault(f => f.Name.ToLower() == fruitname.ToLower());
+                var fruitByName = result.FirstOrDefault(f => f.Name.ToLower() == fruitName.ToLower());
                 return fruitByName;
             }
+            return null;
         }
 
-        public Task<List<FruitDto>> GetFruitsFamilyAsync(string familyName)
+        public async Task<List<FruitDto>> GetFruitsByFamilyAsync(string familyName)
         {
-            throw new NotImplementedException();
+            var response = await _httpClient.GetAsync($"https://www.fruityvice.com/api/fruit/family/{familyName}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                //thiss will read the content that we get as a string
+                var json = await response.Content.ReadAsStringAsync();
+
+                //we need to deserialize the string and set naming policy for the data to be in camel case
+                return JsonSerializer.Deserialize<List<FruitDto>>(json, new JsonSerializerOptions
+                {
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                });
+            }
+
+            return null;
         }
 
-        public Task<List<FruitDto>> GetFruitsGenusAsync(string genusName)
+        public async Task<List<FruitDto>> GetFruitsByGenusAsync(string genusName)
         {
-            throw new NotImplementedException();
+            var response = await _httpClient.GetAsync($"https://www.fruityvice.com/api/fruit/genus/{genusName}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                //thiss will read the content that we get as a string
+                var json = await response.Content.ReadAsStringAsync();
+
+                //we need to deserialize the string and set naming policy for the data to be in camel case
+                return JsonSerializer.Deserialize<List<FruitDto>>(json, new JsonSerializerOptions
+                {
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                });
+            }
+
+            return null;
         }
 
-        public Task<List<FruitDto>> GetFruitsOrderAsync(string orderName)
+        public async Task<List<FruitDto>> GetFruitsByOrderAsync(string orderName)
         {
-            throw new NotImplementedException();
+            var response = await _httpClient.GetAsync($"https://www.fruityvice.com/api/fruit/order/{orderName}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                //thiss will read the content that we get as a string
+                var json = await response.Content.ReadAsStringAsync();
+
+                //we need to deserialize the string and set naming policy for the data to be in camel case
+                return JsonSerializer.Deserialize<List<FruitDto>>(json, new JsonSerializerOptions
+                {
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                });
+            }
+
+            return null;
         }
     }
 }

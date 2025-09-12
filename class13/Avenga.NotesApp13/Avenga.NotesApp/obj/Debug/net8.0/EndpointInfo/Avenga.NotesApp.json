@@ -5,6 +5,106 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Fruit/all": {
+      "get": {
+        "tags": [
+          "Fruit"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Fruit/{fruitName}": {
+      "get": {
+        "tags": [
+          "Fruit"
+        ],
+        "parameters": [
+          {
+            "name": "fruitName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Fruit/family/{familyName}": {
+      "get": {
+        "tags": [
+          "Fruit"
+        ],
+        "parameters": [
+          {
+            "name": "familyName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Fruit/genus/{genusName}": {
+      "get": {
+        "tags": [
+          "Fruit"
+        ],
+        "parameters": [
+          {
+            "name": "genusName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Fruit/order/{orderName}": {
+      "get": {
+        "tags": [
+          "Fruit"
+        ],
+        "parameters": [
+          {
+            "name": "orderName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Notes": {
       "get": {
         "tags": [
