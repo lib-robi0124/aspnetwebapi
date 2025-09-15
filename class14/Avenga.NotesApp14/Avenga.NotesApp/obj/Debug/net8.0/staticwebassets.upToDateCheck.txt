@@ -1,0 +1,6 @@
+wwwroot\login.html
+wwwroot\login.js
+wwwroot\note.html
+wwwroot\note.js
+wwwroot\register.html
+wwwroot\register.js

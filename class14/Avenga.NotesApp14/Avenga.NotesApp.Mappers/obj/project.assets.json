@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Avenga.NotesApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Avenga.NotesApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Avenga.NotesApp.Domain.dll": {}
+        }
+      },
+      "Avenga.NotesApp.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Avenga.NotesApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Avenga.NotesApp.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Avenga.NotesApp.Dtos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Avenga.NotesApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Avenga.NotesApp.Domain/Avenga.NotesApp.Domain.csproj",
+      "msbuildProject": "../Avenga.NotesApp.Domain/Avenga.NotesApp.Domain.csproj"
+    },
+    "Avenga.NotesApp.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Avenga.NotesApp.Dtos/Avenga.NotesApp.Dtos.csproj",
+      "msbuildProject": "../Avenga.NotesApp.Dtos/Avenga.NotesApp.Dtos.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Avenga.NotesApp.Dtos >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Robertr2\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj",
+      "projectName": "Avenga.NotesApp.Mappers",
+      "projectPath": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj",
+      "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+      "outputPath": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Mappers\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
