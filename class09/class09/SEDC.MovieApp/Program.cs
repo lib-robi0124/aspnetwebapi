@@ -38,8 +38,8 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 //manual DI
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddScoped<IUserService, UserService>();
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 //read from appSettings.Json, find the property AppSettings from the main Object
 var appSettings = builder.Configuration.GetSection("AppSettings");

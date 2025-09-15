@@ -26,7 +26,7 @@ namespace SEDC.MovieApp.Services.Implementations
             {
                 throw new MovieException("Year is not valid");
             }
-            if (string.IsNullOrEmpty(addMovieDto.Description) && addMovieDto.Description.Length > 250)
+            if (!string.IsNullOrEmpty(addMovieDto.Description) && addMovieDto.Description.Length > 250)
             {
                 throw new MovieException("Description is required and must be less than 250 characters");
             }
@@ -86,7 +86,7 @@ namespace SEDC.MovieApp.Services.Implementations
             {
                 throw new MovieException("Year is not valid");
             }
-            if (string.IsNullOrEmpty(updateMovieDto.Description) && updateMovieDto.Description.Length > 250)
+            if (!string.IsNullOrEmpty(updateMovieDto.Description) && updateMovieDto.Description.Length > 250)
             {
                 throw new MovieException("Description is required and must be less than 250 characters");
             }

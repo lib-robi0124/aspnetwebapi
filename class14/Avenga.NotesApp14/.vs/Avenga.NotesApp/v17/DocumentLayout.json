@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6C0C221-8B04-4FC8-B475-62E7B5F1223F}|Avenga.NotesApp.Services\\Avenga.NotesApp.Services.csproj|d:\\qinshift\\aspnetwebapi\\class14\\avenga.notesapp14\\avenga.notesapp.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C0C221-8B04-4FC8-B475-62E7B5F1223F}|Avenga.NotesApp.Services\\Avenga.NotesApp.Services.csproj|solutionrelative:avenga.notesapp.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{518DF300-0981-4BDD-9C74-D01E0C70AA2F}|Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj|d:\\qinshift\\aspnetwebapi\\class14\\avenga.notesapp14\\avenga.notesapp.dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{518DF300-0981-4BDD-9C74-D01E0C70AA2F}|Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj|solutionrelative:avenga.notesapp.dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D23082A7-F796-4EA0-8FEA-9324D5B7F1E9}|Avenga.NotesApp.DataAccess\\Avenga.NotesApp.DataAccess.csproj|d:\\qinshift\\aspnetwebapi\\class14\\avenga.notesapp14\\avenga.notesapp.dataaccess\\notesappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D23082A7-F796-4EA0-8FEA-9324D5B7F1E9}|Avenga.NotesApp.DataAccess\\Avenga.NotesApp.DataAccess.csproj|solutionrelative:avenga.notesapp.dataaccess\\notesappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{D23082A7-F796-4EA0-8FEA-9324D5B7F1E9}|Avenga.NotesApp.DataAccess\\Avenga.NotesApp.DataAccess.csproj|solutionrelative:avenga.notesapp.dataaccess\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6C0C221-8B04-4FC8-B475-62E7B5F1223F}|Avenga.NotesApp.Services\\Avenga.NotesApp.Services.csproj|d:\\qinshift\\aspnetwebapi\\class14\\avenga.notesapp14\\avenga.notesapp.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6C0C221-8B04-4FC8-B475-62E7B5F1223F}|Avenga.NotesApp.Services\\Avenga.NotesApp.Services.csproj|solutionrelative:avenga.notesapp.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFF95237-3E63-4408-930E-EEECC5536752}|Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj|d:\\qinshift\\aspnetwebapi\\class14\\avenga.notesapp14\\avenga.notesapp.mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFF95237-3E63-4408-930E-EEECC5536752}|Avenga.NotesApp.Mappers\\Avenga.NotesApp.Mappers.csproj|solutionrelative:avenga.notesapp.mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{518DF300-0981-4BDD-9C74-D01E0C70AA2F}|Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj|d:\\qinshift\\aspnetwebapi\\class14\\avenga.notesapp14\\avenga.notesapp.dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{518DF300-0981-4BDD-9C74-D01E0C70AA2F}|Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj|solutionrelative:avenga.notesapp.dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{518DF300-0981-4BDD-9C74-D01E0C70AA2F}|Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj|d:\\qinshift\\aspnetwebapi\\class14\\avenga.notesapp14\\avenga.notesapp.dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{518DF300-0981-4BDD-9C74-D01E0C70AA2F}|Avenga.NotesApp.Dtos\\Avenga.NotesApp.Dtos.csproj|solutionrelative:avenga.notesapp.dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Dtos\\UserDtos\\UserDto.cs",
               "RelativeDocumentMoniker": "Avenga.NotesApp.Dtos\\UserDtos\\UserDto.cs",
               "ToolTip": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Dtos\\UserDtos\\UserDto.cs",
               "RelativeToolTip": "Avenga.NotesApp.Dtos\\UserDtos\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T07:40:08.596Z",
               "IsPinned": true,
@@ -92,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Dtos\\UserDtos\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "Avenga.NotesApp.Dtos\\UserDtos\\UpdateUserDto.cs",
@@ -101,12 +101,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T07:41:04.933Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Avenga.NotesApp.Services\\Interfaces\\IUserService.cs",
@@ -115,12 +114,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T07:39:00.699Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserMapper.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Mappers\\UserMapper.cs",
               "RelativeDocumentMoniker": "Avenga.NotesApp.Mappers\\UserMapper.cs",
@@ -129,18 +127,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T07:53:40.888Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "Avenga.NotesApp.Services\\Implementations\\UserService.cs",
               "ToolTip": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.Services\\Implementations\\UserService.cs",
               "RelativeToolTip": "Avenga.NotesApp.Services\\Implementations\\UserService.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAiwJsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwJsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T07:43:03.063Z",
               "IsPinned": true,
@@ -148,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.DataAccess\\Implementations\\UserRepository.cs",
               "RelativeDocumentMoniker": "Avenga.NotesApp.DataAccess\\Implementations\\UserRepository.cs",
@@ -157,12 +154,11 @@
               "ViewState": "AgIAABMAAAAAAAAAAADwvzIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T08:04:52.077Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\Program.cs",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\Program.cs",
@@ -171,12 +167,11 @@
               "ViewState": "AgIAADkAAAAAAAAAAAAAAFMAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T08:29:03.951Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "login.html",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\wwwroot\\login.html",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\wwwroot\\login.html",
@@ -185,12 +180,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-15T08:35:23.486Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\Properties\\launchSettings.json",
@@ -199,12 +193,11 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-15T08:52:57.133Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "login.js",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\wwwroot\\login.js",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\wwwroot\\login.js",
@@ -213,12 +206,11 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-09-15T08:38:53.541Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "note.html",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\wwwroot\\note.html",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\wwwroot\\note.html",
@@ -227,12 +219,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-15T08:54:17.465Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "note.js",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\wwwroot\\note.js",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\wwwroot\\note.js",
@@ -241,12 +232,11 @@
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-09-15T09:00:02.669Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "register.html",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\wwwroot\\register.html",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\wwwroot\\register.html",
@@ -255,12 +245,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-15T13:07:44.904Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "register.js",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\wwwroot\\register.js",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\wwwroot\\register.js",
@@ -269,25 +258,28 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-09-15T13:10:36.821Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NotesAppDbContext.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.DataAccess\\NotesAppDbContext.cs",
               "RelativeDocumentMoniker": "Avenga.NotesApp.DataAccess\\NotesAppDbContext.cs",
               "ToolTip": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp.DataAccess\\NotesAppDbContext.cs",
               "RelativeToolTip": "Avenga.NotesApp.DataAccess\\NotesAppDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T13:21:39.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class14\\Avenga.NotesApp14\\Avenga.NotesApp\\appsettings.json",
               "RelativeDocumentMoniker": "Avenga.NotesApp\\appsettings.json",
@@ -295,12 +287,7 @@
               "RelativeToolTip": "Avenga.NotesApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-15T13:20:39.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "WhenOpened": "2025-09-15T13:20:39.168Z"
             }
           ]
         }

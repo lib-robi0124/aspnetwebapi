@@ -42,6 +42,11 @@ namespace SEDC.MovieApp.DataAccess
                     Year = 2020
                 }
                 );
+            modelBuilder.Entity<Movie>()
+                .HasOne(x => x.User)
+                .WithMany(x => x.MovieList)
+                .HasForeignKey(x => x.UserId);
+
             modelBuilder.Entity<User>()
                         .Property(x => x.FirstName)
                         .HasMaxLength(50);
