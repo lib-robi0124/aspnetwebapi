@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.dataaccess\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|solutionrelative:sedc.movieapp.dataaccess\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp.dataaccess\\implementation\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEFCB10-72D3-4074-BA83-24F8F5500DD7}|SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj|solutionrelative:sedc.movieapp.dataaccess\\implementation\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83F2FFBA-1605-4E27-85E6-AE8DF780AE44}|SEDC.MovieApp\\SEDC.MovieApp.csproj|d:\\qinshift\\aspnetwebapi\\class09\\class09\\sedc.movieapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83F2FFBA-1605-4E27-85E6-AE8DF780AE44}|SEDC.MovieApp\\SEDC.MovieApp.csproj|solutionrelative:sedc.movieapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,7 +78,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Services\\Interfaces\\IUserService.cs",
@@ -79,12 +87,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T14:05:50.449Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Services\\Implementations\\UserService.cs",
@@ -93,12 +100,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T14:05:32.657Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\UserDto\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Dtos\\UserDto\\UpdateUserDto.cs",
@@ -107,12 +113,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T06:42:32.83Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UserMapper.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Mappers\\UserMapper.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Mappers\\UserMapper.cs",
@@ -121,33 +126,32 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T06:44:51.318Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "SEDC.MovieApp\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "SEDC.MovieApp\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAkwEAAAAAJAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\Implementation\\UserRepository.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\Implementation\\UserRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:13:27.678Z",
+              "WhenOpened": "2025-09-16T07:21:07.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\IRepository.cs",
-              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\IRepository.cs",
-              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\IRepository.cs",
-              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\Implementation\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\Implementation\\MovieRepository.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\Implementation\\MovieRepository.cs",
+              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\Implementation\\MovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:05:27.996Z",
+              "WhenOpened": "2025-09-16T07:19:12.975Z",
               "EditorCaption": ""
             },
             {
@@ -156,7 +160,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SEDC.MovieApp\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:13:27.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\IRepository.cs",
+              "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\IRepository.cs",
+              "ToolTip": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\IRepository.cs",
+              "RelativeToolTip": "SEDC.MovieApp.DataAccess\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:05:27.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DependencyInjectionHelper.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Helpers\\DependencyInjectionHelper.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Helpers\\DependencyInjectionHelper.cs",
@@ -168,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MovieServices.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\Implementations\\MovieServices.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Services\\Implementations\\MovieServices.cs",
@@ -180,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\UserDto\\UserDto.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Dtos\\UserDto\\UserDto.cs",
@@ -192,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MovieDto.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\MovieDto.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Dtos\\MovieDto.cs",
@@ -204,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\Domain\\User.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Domain\\Domain\\User.cs",
@@ -216,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MoviesDbContext.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\MoviesDbContext.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.DataAccess\\MoviesDbContext.cs",
@@ -228,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Movie.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\Domain\\Movie.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp.Domain\\Domain\\Movie.cs",
@@ -240,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp\\Program.cs",
               "RelativeDocumentMoniker": "SEDC.MovieApp\\Program.cs",

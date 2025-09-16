@@ -22,7 +22,7 @@ namespace SEDC.MovieApp.DataAccess.Implementation
             _context.SaveChanges();
         }
 
-        public IEnumerable<User> GetAll()
+        public List<User> GetAll()
         {
             return _context.Users.Include(x => x.MovieList).ToList();
         }

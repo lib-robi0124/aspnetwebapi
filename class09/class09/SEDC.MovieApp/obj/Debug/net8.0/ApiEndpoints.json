@@ -126,6 +126,16 @@
   },
   {
     "ContainingType": "SEDC.MovieApp.Controllers.UsersController",
+    "Method": "TestIfLoggedIn",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SEDC.MovieApp.Controllers.UsersController",
     "Method": "LoginUser",
     "RelativePath": "api/Users/login",
     "HttpMethod": "POST",

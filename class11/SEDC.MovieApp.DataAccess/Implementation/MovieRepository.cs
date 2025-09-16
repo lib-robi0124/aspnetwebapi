@@ -41,7 +41,7 @@ namespace SEDC.MovieApp.DataAccess.Implementation
             // or  List<Movie> movies = _context.Movies.Where(x => x.Year == year && x.Genre == (GenreEnum)genre).ToList();  return movies;
         }
 
-        public IEnumerable<Movie> GetAll()
+        public List<Movie> GetAll()
         {
             return _context.Movies.ToList();
         }
@@ -56,5 +56,6 @@ namespace SEDC.MovieApp.DataAccess.Implementation
             _context.Movies.Update(entity);
             _context.SaveChanges();
         }
+
     }
 }

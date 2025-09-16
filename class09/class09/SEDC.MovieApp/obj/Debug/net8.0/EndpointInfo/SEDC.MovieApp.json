@@ -281,6 +281,29 @@
         }
       }
     },
+    "/api/Users": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -385,6 +408,10 @@
           },
           "genre": {
             "$ref": "#/components/schemas/GenreEnum"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
