@@ -1,0 +1,15 @@
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\bin\Debug\net8.0\SEDC.MovieApp.Domain.deps.json
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\bin\Debug\net8.0\SEDC.MovieApp.Domain.runtimeconfig.json
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\bin\Debug\net8.0\SEDC.MovieApp.Domain.dll
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\bin\Debug\net8.0\SEDC.MovieApp.Domain.pdb
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.csproj.AssemblyReference.cache
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.AssemblyInfoInputs.cache
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.AssemblyInfo.cs
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.csproj.CoreCompileInputs.cache
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.sourcelink.json
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.dll
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\refint\SEDC.MovieApp.Domain.dll
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.pdb
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\SEDC.MovieApp.Domain.genruntimeconfig.cache
+D:\qinshift\aspnetwebapi\class09\class09\SEDC.MovieApp.Domain\obj\Debug\net8.0\ref\SEDC.MovieApp.Domain.dll
