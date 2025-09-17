@@ -9,6 +9,17 @@ using Avenga.NotesApp.Services.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add CORS service
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5280") // your frontend URL
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -79,6 +90,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+// Use CORS
+app.UseCors("AllowFrontend");
 
 //we need this to be added to the application pipeline so we can use views(static files => views)
 app.UseStaticFiles(); //Without app.UseStaticFiles();, your HTML/JS/CSS files in wwwroot won’t be accessible.

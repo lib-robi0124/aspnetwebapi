@@ -22,7 +22,6 @@ let login = async () => {
         //we set the headers and put only what type of content will be
         headers: {
             'Content-Type': 'application/json'
-            
         },
         //here we set the value in the body that will be send
         //and for that purpose we stringify the model
@@ -38,7 +37,7 @@ let login = async () => {
                 console.log(text);
                 localStorage.setItem("notesApiToken", text);
                 //after we get the token we redirect to the notes.html page
-                window.location.href = "http://localhost:5280/note.html";
+                    window.location.href = "note.html";
             })
         })
 //if there is an error we catch it here

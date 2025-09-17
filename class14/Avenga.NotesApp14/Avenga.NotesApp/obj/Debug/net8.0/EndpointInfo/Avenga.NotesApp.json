@@ -139,8 +139,19 @@
                 }
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
-        }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
       },
       "put": {
         "tags": [
@@ -168,8 +179,19 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
-        }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
       }
     },
     "/api/Notes/{id}": {
@@ -208,8 +230,19 @@
                 }
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
-        }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
       },
       "delete": {
         "tags": [
@@ -229,8 +262,19 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
-        }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
       }
     },
     "/api/Notes/addNote": {
@@ -260,8 +304,19 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
-        }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
       }
     },
     "/api/Users/register": {

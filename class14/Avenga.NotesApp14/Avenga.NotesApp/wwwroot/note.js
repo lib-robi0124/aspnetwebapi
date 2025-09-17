@@ -13,22 +13,22 @@ let getAllNotes = async () => {
     let token = localStorage.getItem("notesApiToken");
     console.log("Token: " + token);
     let response = await fetch(url, {
-        method: "GET",
+        method: 'GET',
         headers: {
-            'Content-Type': 'application/json',
+            //'Content-Type': 'application/json',
             'Authorization': `Bearer ${token}`
         }
     })
     if (response.ok) {
         let notes = await response.json();
         console.log(notes);
-        displayNotes(notes);
+        displayNotes(notes)
     } else {
-        console.log("Error: " + response.status);
-        if (response.status === 401) {
-            alert("Unauthorized! Please log in again.");
-            window.location.href = "http://localhost:5280/login.html";
-        }
+        console.log(`failed to fetch notes:`, response.statusText)
+        //if (response.status === 401) {
+        //    alert("Unauthorized! Please log in again.");
+        //    window.location.href = "http://localhost:5280/login.html";
+        //}
     }
 
     let addNote = async () => {
@@ -42,7 +42,7 @@ let getAllNotes = async () => {
             UserId: parseInt(addNoteUserInput.value)
         }
         let response = await fetch(url + "/addNote", {
-            method: "POST",
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
@@ -51,10 +51,12 @@ let getAllNotes = async () => {
         })
             .then(function (response) {
                 console.log(response);
-            }).catch(function (error) {
-                console.log(error);
+            })
+            .catch(function (err) {
+                console.log(err);
             })
     }
+
     let displayNotes = (notes) => {
         //creating a table with elements
         let table = document.createElement("table");
@@ -66,7 +68,7 @@ let getAllNotes = async () => {
         headers.forEach(headerText => {
             let header = document.createElement("th");
             header.textContent = headerText;
-            headerRow.appendChild(th);
+            headerRow.appendChild(header);
         });
         thead.appendChild(headerRow);
 
@@ -89,7 +91,7 @@ let getAllNotes = async () => {
     }
     let logout = () => {
         localStorage.removeItem("notesApiToken"); //removing the token from the local storage
-        window.location.href = "http://localhost:5280/login.html";
+        window.location.href = "http://localhost:5280/login.html"
     }
     getAllNotesBtn.addEventListener("click", getAllNotes);
     addNoteBtn.addEventListener("click", addNote);

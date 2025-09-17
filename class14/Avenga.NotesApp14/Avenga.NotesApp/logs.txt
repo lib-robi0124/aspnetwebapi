@@ -606,3 +606,222 @@ INNER JOIN [Users] AS [u] ON [n].[UserId] = [u].[Id]
 2025-09-16 18:21:13.818 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - null null
 2025-09-16 18:21:13.819 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 0.2663ms
 2025-09-16 18:21:13.831 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.3ms
+2025-09-17 09:34:01.050 +02:00 [INF] Executed DbCommand (106ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [OfficeNotesAppDbAuth];
+2025-09-17 09:34:01.110 +02:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [OfficeNotesAppDbAuth] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-09-17 09:34:01.123 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-17 09:34:01.160 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-09-17 09:34:01.161 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-17 09:34:01.170 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-17 09:34:01.176 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-17 09:34:01.184 +02:00 [INF] Applying migration '20250917073343_initone'.
+2025-09-17 09:34:01.203 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(50) NULL,
+    [LastName] nvarchar(50) NULL,
+    [Username] nvarchar(30) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2025-09-17 09:34:01.205 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Notes] (
+    [Id] int NOT NULL IDENTITY,
+    [Text] nvarchar(100) NOT NULL,
+    [Priority] int NOT NULL,
+    [Tag] int NOT NULL,
+    [UserId] int NOT NULL,
+    CONSTRAINT [PK_Notes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Notes_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2025-09-17 09:34:01.205 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Notes_UserId] ON [Notes] ([UserId]);
+2025-09-17 09:34:01.207 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250917073343_initone', N'8.0.19');
+2025-09-17 09:34:08.749 +02:00 [INF] User profile is available. Using 'C:\Users\Robertr2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-17 09:34:09.039 +02:00 [INF] Now listening on: https://localhost:7095
+2025-09-17 09:34:09.039 +02:00 [INF] Now listening on: http://localhost:5280
+2025-09-17 09:34:09.102 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-17 09:34:09.102 +02:00 [INF] Hosting environment: Development
+2025-09-17 09:34:09.102 +02:00 [INF] Content root path: D:\qinshift\aspnetwebapi\class14\Avenga.NotesApp14\Avenga.NotesApp
+2025-09-17 09:34:09.910 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/index.html - null null
+2025-09-17 09:34:10.111 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/index.html - 200 null text/html;charset=utf-8 209.5125ms
+2025-09-17 09:34:10.117 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 09:34:10.125 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 7.6119ms
+2025-09-17 09:34:10.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - null null
+2025-09-17 09:34:10.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.1535ms
+2025-09-17 09:34:10.238 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - null null
+2025-09-17 09:34:10.262 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.5172ms
+2025-09-17 09:34:16.753 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/login.html - null null
+2025-09-17 09:34:16.772 +02:00 [INF] The file /login.html was not modified
+2025-09-17 09:34:16.784 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/login.html - 304 null text/html 31.8654ms
+2025-09-17 09:34:16.792 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/login.js - null null
+2025-09-17 09:34:16.793 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 09:34:16.793 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_vs/browserLink - null null
+2025-09-17 09:34:16.794 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 1.0471ms
+2025-09-17 09:34:16.803 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.4203ms
+2025-09-17 09:34:16.831 +02:00 [INF] Sending file. Request path: '/login.js'. Physical path: 'D:\qinshift\aspnetwebapi\class14\Avenga.NotesApp14\Avenga.NotesApp\wwwroot\login.js'
+2025-09-17 09:34:16.831 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/login.js - 200 1890 text/javascript 39.7065ms
+2025-09-17 09:34:19.018 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/register.html - null null
+2025-09-17 09:34:19.021 +02:00 [INF] The file /register.html was not modified
+2025-09-17 09:34:19.021 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/register.html - 304 null text/html 3.0692ms
+2025-09-17 09:34:19.057 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/register.js - null null
+2025-09-17 09:34:19.058 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_vs/browserLink - null null
+2025-09-17 09:34:19.059 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 09:34:19.060 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 1.2134ms
+2025-09-17 09:34:19.069 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.3952ms
+2025-09-17 09:34:19.102 +02:00 [INF] Sending file. Request path: '/register.js'. Physical path: 'D:\qinshift\aspnetwebapi\class14\Avenga.NotesApp14\Avenga.NotesApp\wwwroot\register.js'
+2025-09-17 09:34:19.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/register.js - 200 2099 text/javascript 45.2357ms
+2025-09-17 09:35:07.302 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/api/Users - null null
+2025-09-17 09:35:08.067 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-17 09:35:08.069 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-17 09:35:08.070 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/api/Users - 401 0 null 767.5632ms
+2025-09-17 09:36:01.686 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/Users/register - application/json 140
+2025-09-17 09:36:01.699 +02:00 [INF] Executing endpoint 'Avenga.NotesApp.Controllers.UsersController.Register (Avenga.NotesApp)'
+2025-09-17 09:36:01.717 +02:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(Avenga.NotesApp.Dtos.UserDtos.RegisterUserDto) on controller Avenga.NotesApp.Controllers.UsersController (Avenga.NotesApp).
+2025-09-17 09:36:01.901 +02:00 [INF] Registration attempt for user: robertr
+2025-09-17 09:36:02.921 +02:00 [INF] Executed DbCommand (64ms) [Parameters=[@__ToLower_0='?' (Size = 30)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0
+2025-09-17 09:36:03.025 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 50), @p2='?' (Size = 4000), @p3='?' (Size = 30)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-09-17 09:36:03.039 +02:00 [INF] User robertr successfully registered.
+2025-09-17 09:36:03.041 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-09-17 09:36:03.046 +02:00 [INF] Executed action Avenga.NotesApp.Controllers.UsersController.Register (Avenga.NotesApp) in 1324.8255ms
+2025-09-17 09:36:03.046 +02:00 [INF] Executed endpoint 'Avenga.NotesApp.Controllers.UsersController.Register (Avenga.NotesApp)'
+2025-09-17 09:36:03.054 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/Users/register - 201 null text/plain; charset=utf-8 1367.9893ms
+2025-09-17 09:37:01.788 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/login.js - null null
+2025-09-17 09:37:01.795 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_vs/browserLink - null null
+2025-09-17 09:37:01.798 +02:00 [INF] The file /login.js was not modified
+2025-09-17 09:37:01.799 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/login.js - 304 null text/javascript 10.2159ms
+2025-09-17 09:37:01.800 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 09:37:01.801 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 0.6007ms
+2025-09-17 09:37:01.816 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.5847ms
+2025-09-17 09:37:12.729 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5280/api/users/login - application/json 45
+2025-09-17 09:37:12.732 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5280/api/users/login - 307 0 null 3.635ms
+2025-09-17 09:37:12.743 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/users/login - null null
+2025-09-17 09:37:12.750 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-09-17 09:37:12.751 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-09-17 09:37:12.752 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/users/login - 405 0 null 9.0657ms
+2025-09-17 10:33:09.788 +02:00 [INF] User profile is available. Using 'C:\Users\Robertr2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-17 10:33:10.057 +02:00 [INF] Now listening on: https://localhost:7095
+2025-09-17 10:33:10.058 +02:00 [INF] Now listening on: http://localhost:5280
+2025-09-17 10:33:10.124 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-17 10:33:10.124 +02:00 [INF] Hosting environment: Development
+2025-09-17 10:33:10.124 +02:00 [INF] Content root path: D:\qinshift\aspnetwebapi\class14\Avenga.NotesApp14\Avenga.NotesApp
+2025-09-17 10:33:10.710 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/index.html - null null
+2025-09-17 10:33:10.884 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/index.html - 200 null text/html;charset=utf-8 182.3727ms
+2025-09-17 10:33:10.900 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 10:33:10.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 6.325ms
+2025-09-17 10:33:10.920 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - null null
+2025-09-17 10:33:11.006 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.8599ms
+2025-09-17 10:33:11.051 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - null null
+2025-09-17 10:33:11.083 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.1246ms
+2025-09-17 10:33:14.826 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_vs/browserLink - null null
+2025-09-17 10:33:14.826 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/login.js - null null
+2025-09-17 10:33:14.826 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 10:33:14.853 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 26.3399ms
+2025-09-17 10:33:14.854 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.1862ms
+2025-09-17 10:33:14.892 +02:00 [INF] Sending file. Request path: '/login.js'. Physical path: 'D:\qinshift\aspnetwebapi\class14\Avenga.NotesApp14\Avenga.NotesApp\wwwroot\login.js'
+2025-09-17 10:33:14.892 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/login.js - 200 1872 text/javascript 65.8086ms
+2025-09-17 10:33:25.335 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5280/api/users/login - application/json 45
+2025-09-17 10:33:25.337 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5280/api/users/login - 307 0 null 2.9023ms
+2025-09-17 10:33:25.347 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/users/login - null null
+2025-09-17 10:33:25.420 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-09-17 10:33:25.420 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-09-17 10:33:25.420 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/users/login - 405 0 null 72.5479ms
+2025-09-17 10:33:30.015 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-09-17 10:33:30.016 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/.well-known/appspecific/com.chrome.devtools.json - 307 0 null 1.1853ms
+2025-09-17 10:33:30.021 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-09-17 10:33:30.023 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 2.266ms
+2025-09-17 10:33:30.024 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7095/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-09-17 10:34:33.593 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/login.js - null null
+2025-09-17 10:34:33.593 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-09-17 10:34:33.594 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_vs/browserLink - null null
+2025-09-17 10:34:33.595 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/.well-known/appspecific/com.chrome.devtools.json - 307 0 null 1.3163ms
+2025-09-17 10:34:33.595 +02:00 [INF] The file /login.js was not modified
+2025-09-17 10:34:33.595 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/login.js - 304 null text/javascript 2.4549ms
+2025-09-17 10:34:33.606 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 10:34:33.607 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-09-17 10:34:33.607 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 8.2946ms
+2025-09-17 10:34:33.627 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 21.3106ms
+2025-09-17 10:34:33.627 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.8485ms
+2025-09-17 10:34:33.627 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7095/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-09-17 10:35:38.158 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5280/api/users/login - application/json 45
+2025-09-17 10:35:38.159 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5280/api/users/login - 307 0 null 0.8688ms
+2025-09-17 10:35:38.163 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/users/login - null null
+2025-09-17 10:35:38.164 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-09-17 10:35:38.164 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-09-17 10:35:38.164 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/users/login - 405 0 null 1.1697ms
+2025-09-17 10:42:16.632 +02:00 [INF] User profile is available. Using 'C:\Users\Robertr2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-17 10:42:16.817 +02:00 [INF] Now listening on: https://localhost:7095
+2025-09-17 10:42:16.817 +02:00 [INF] Now listening on: http://localhost:5280
+2025-09-17 10:42:16.874 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-17 10:42:16.874 +02:00 [INF] Hosting environment: Development
+2025-09-17 10:42:16.874 +02:00 [INF] Content root path: D:\qinshift\aspnetwebapi\class14\Avenga.NotesApp14\Avenga.NotesApp
+2025-09-17 10:42:17.140 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/index.html - null null
+2025-09-17 10:42:17.296 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/index.html - 200 null text/html;charset=utf-8 161.1591ms
+2025-09-17 10:42:17.307 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 10:42:17.313 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 6.3329ms
+2025-09-17 10:42:17.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - null null
+2025-09-17 10:42:17.361 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.1144ms
+2025-09-17 10:42:17.400 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - null null
+2025-09-17 10:42:17.417 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.4182ms
+2025-09-17 10:42:30.836 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 10:42:30.836 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_vs/browserLink - null null
+2025-09-17 10:42:30.836 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/login.js - null null
+2025-09-17 10:42:30.849 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 13.551ms
+2025-09-17 10:42:30.859 +02:00 [INF] The file /login.js was not modified
+2025-09-17 10:42:30.860 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/login.js - 304 null text/javascript 24.7463ms
+2025-09-17 10:42:30.863 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.2744ms
+2025-09-17 10:42:39.277 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5280/api/users/login - application/json 45
+2025-09-17 10:42:39.282 +02:00 [INF] CORS policy execution successful.
+2025-09-17 10:42:39.286 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5280/api/users/login - 307 0 null 9.2342ms
+2025-09-17 10:42:39.296 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7095/api/users/login - null null
+2025-09-17 10:42:39.298 +02:00 [INF] CORS policy execution successful.
+2025-09-17 10:42:39.299 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7095/api/users/login - 204 null null 3.2753ms
+2025-09-17 10:42:39.302 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7095/api/users/login - application/json 45
+2025-09-17 10:42:39.303 +02:00 [INF] CORS policy execution successful.
+2025-09-17 10:42:40.099 +02:00 [INF] Executing endpoint 'Avenga.NotesApp.Controllers.UsersController.LoginUser (Avenga.NotesApp)'
+2025-09-17 10:42:40.115 +02:00 [INF] Route matched with {action = "LoginUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginUser(Avenga.NotesApp.Dtos.UserDtos.LoginUserDto) on controller Avenga.NotesApp.Controllers.UsersController (Avenga.NotesApp).
+2025-09-17 10:42:41.929 +02:00 [INF] Executed DbCommand (70ms) [Parameters=[@__ToLower_0='?' (Size = 30), @__hashedPassword_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0 AND [u].[Password] = @__hashedPassword_1
+2025-09-17 10:42:42.036 +02:00 [INF] User {Username} successfully logged in.
+2025-09-17 10:42:42.041 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-09-17 10:42:42.044 +02:00 [INF] Executed action Avenga.NotesApp.Controllers.UsersController.LoginUser (Avenga.NotesApp) in 1925.9511ms
+2025-09-17 10:42:42.044 +02:00 [INF] Executed endpoint 'Avenga.NotesApp.Controllers.UsersController.LoginUser (Avenga.NotesApp)'
+2025-09-17 10:42:42.050 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7095/api/users/login - 200 null text/plain; charset=utf-8 2748.5784ms
+2025-09-17 10:42:42.058 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/note.html - null null
+2025-09-17 10:42:42.087 +02:00 [INF] Sending file. Request path: '/note.html'. Physical path: 'D:\qinshift\aspnetwebapi\class14\Avenga.NotesApp14\Avenga.NotesApp\wwwroot\note.html'
+2025-09-17 10:42:42.087 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/note.html - 200 null text/html 29.6005ms
+2025-09-17 10:42:42.090 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/note.js - null null
+2025-09-17 10:42:42.090 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-17 10:42:42.090 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5280/_vs/browserLink - null null
+2025-09-17 10:42:42.090 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 0.2454ms
+2025-09-17 10:42:42.099 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.8735ms
+2025-09-17 10:42:42.132 +02:00 [INF] Sending file. Request path: '/note.js'. Physical path: 'D:\qinshift\aspnetwebapi\class14\Avenga.NotesApp14\Avenga.NotesApp\wwwroot\note.js'
+2025-09-17 10:42:42.134 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5280/note.js - 200 3712 text/javascript 44.3169ms
