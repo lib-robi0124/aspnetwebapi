@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Avenga.NotesApp.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e03e09884743c2d77c9bdebc96c3fd609887c719")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de17c398efb0cb220950802ab552a83aec002dbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Avenga.NotesApp.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Avenga.NotesApp.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

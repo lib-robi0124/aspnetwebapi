@@ -1,11 +1,13 @@
 ﻿using Avenga.NotesApp.Dtos.NoteDtos;
 using Avenga.NotesApp.Services.Interfaces;
 using Avenga.NotesApp.Shared.CustomExceptions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
 
 namespace Avenga.NotesApp.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class NotesController : ControllerBase
@@ -80,14 +82,17 @@ namespace Avenga.NotesApp.Controllers
             try
             {
                 _noteService.UpdateNote(updateNoteDto);
+                Log.Information($"Note with id {updateNoteDto.Id} successfully updated.");
                 return NoContent(); // 204
             }
             catch (NoteNotFoundException ex)
             {
+                Log.Warning("The requested note was not found");
                 return NotFound(ex.Message); // 404
             }
             catch (NoteDataException ex)
             {
+                Log.Warning($"Invalid data provided for updating a note.{ex.Message}");
                 return BadRequest(ex.Message); //400
             }
             catch (Exception)
@@ -102,14 +107,17 @@ namespace Avenga.NotesApp.Controllers
             try
             {
                 _noteService.DeleteNote(id);
+                Log.Information($"Note with id {id} successfully deleted.");
                 return Ok($"Note with id {id} successfully deleted!");
             }
             catch (NoteNotFoundException e)
             {
+                Log.Warning("The requested note was not found");
                 return NotFound(e.Message);
             }
             catch (Exception)
             {
+                Log.Error($"An error occurred while deleting the note.");
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred, contact the Admin!"); // 500
             }
         }

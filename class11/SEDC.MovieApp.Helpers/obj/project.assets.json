@@ -4180,11 +4180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Helpers\\SEDC.MovieApp.Helpers.csproj",
+      "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Helpers\\SEDC.MovieApp.Helpers.csproj",
       "projectName": "SEDC.MovieApp.Helpers",
-      "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Helpers\\SEDC.MovieApp.Helpers.csproj",
+      "projectPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Helpers\\SEDC.MovieApp.Helpers.csproj",
       "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
-      "outputPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Helpers\\obj\\",
+      "outputPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4205,11 +4205,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj": {
-              "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj"
+            "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj"
             },
-            "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj": {
-              "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj"
+            "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj": {
+              "projectPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj"
             }
           }
         }

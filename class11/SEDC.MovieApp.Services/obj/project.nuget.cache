@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TFunDrtAolI=",
+  "dgSpecHash": "3HNC1VwvtbA=",
   "success": true,
-  "projectFilePath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+  "projectFilePath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robertr2\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Robertr2\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -67,9 +67,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'CommonServiceLocator 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+      "projectPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+      "filePath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
       "libraryId": "CommonServiceLocator",
       "targetGraphs": [
         "net8.0"
@@ -79,9 +79,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'XAct.Core.PCL 0.0.5014' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+      "projectPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+      "filePath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
       "libraryId": "XAct.Core.PCL",
       "targetGraphs": [
         "net8.0"

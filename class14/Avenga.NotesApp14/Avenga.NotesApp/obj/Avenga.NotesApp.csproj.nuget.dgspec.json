@@ -599,6 +599,10 @@
               "target": "Package",
               "version": "[8.0.19, )"
             },
+            "Microsoft.Build.Tasks.Core": {
+              "target": "Package",
+              "version": "[17.14.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.19, )"

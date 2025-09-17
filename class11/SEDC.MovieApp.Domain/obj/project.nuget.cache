@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+um78UCPUTM=",
+  "dgSpecHash": "0P+2I7KbxMs=",
   "success": true,
-  "projectFilePath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj",
+  "projectFilePath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robertr2\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Robertr2\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

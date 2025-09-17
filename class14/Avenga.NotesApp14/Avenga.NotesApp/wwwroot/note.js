@@ -15,8 +15,8 @@ let getAllNotes = async () => {
     let response = await fetch(url, {
         method: "GET",
         headers: {
-            "Content-Type": "application/json",
-            "Authorization": `Bearer ${token}`
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${token}`
         }
     })
     if (response.ok) {
@@ -38,13 +38,13 @@ let getAllNotes = async () => {
         let note = {
             Text: addNoteTextInput.value,
             Priority: parseInt(addNotePriorityInput.value),
-            Tag: addNoteTagInput.value,
+            Tag: parseInt(addNoteTagInput.value),
             UserId: parseInt(addNoteUserInput.value)
         }
         let response = await fetch(url + "/addNote", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
+                'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
             },
             body: JSON.stringify(note)

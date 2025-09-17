@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj": {}
+    "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj": {}
   },
   "projects": {
-    "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj": {
+    "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj",
+        "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj",
         "projectName": "SEDC.MovieApp.Domain",
-        "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj",
+        "projectPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
-        "outputPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\obj\\",
+        "outputPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,14 +91,14 @@
         }
       }
     },
-    "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj": {
+    "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj",
+        "projectUniqueName": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj",
         "projectName": "SEDC.MovieApp.Dtos",
-        "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj",
+        "projectPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Dtos\\SEDC.MovieApp.Dtos.csproj",
         "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
-        "outputPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Dtos\\obj\\",
+        "outputPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj": {
-                "projectPath": "D:\\qinshift\\aspnetwebapi\\class09\\class09\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj"
+              "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj": {
+                "projectPath": "D:\\qinshift\\aspnetwebapi\\class11\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj"
               }
             }
           }

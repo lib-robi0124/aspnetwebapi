@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEDC.MovieApp.Mappers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ed399266235115d0cc13d58d3203d7d7d016f56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de17c398efb0cb220950802ab552a83aec002dbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEDC.MovieApp.Mappers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEDC.MovieApp.Mappers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

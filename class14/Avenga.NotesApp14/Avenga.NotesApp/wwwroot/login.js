@@ -1,6 +1,6 @@
 ﻿let usernameInput = document.getElementById("username");
-let passwordInput = document.getElementById("pass");
-let loginButton = document.getElementById("loginBtn");
+let passInput = document.getElementById("pass");
+let loginBtn = document.getElementById("loginBtn");
 let port = "5280";
 
 let login = async () => {
@@ -21,7 +21,8 @@ let login = async () => {
         method: "POST",
         //we set the headers and put only what type of content will be
         headers: {
-            "Content-Type": "application/json"
+            'Content-Type': 'application/json'
+            
         },
         //here we set the value in the body that will be send
         //and for that purpose we stringify the model
@@ -31,18 +32,19 @@ let login = async () => {
 //here we make the reponse that we get from the fetch
         .then(function (response) {
             console.log(response);
-            response.text().then(function (text) {
+            response.text()
+                .then(function (text) {
             //here we save the token in the local storage in the browser
                 console.log(text);
                 localStorage.setItem("notesApiToken", text);
                 //after we get the token we redirect to the notes.html page
-                window.location.href = "http://localhost:5280/notes.html";
+                window.location.href = "http://localhost:5280/note.html";
             })
         })
 //if there is an error we catch it here
-        .catch(function (error) {
-            console.log(error);
+        .catch(function (err) {
+            console.log(err);
         });
 }
 //we add an event listener to the login button
-loginButton.addEventListener("click", login);
+loginBtn.addEventListener("click", login);
